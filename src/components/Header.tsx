@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logoWhite from '../assets/images/logo-white.png';
 
 const Header: React.FC = () => {
@@ -27,15 +28,15 @@ const Header: React.FC = () => {
             <div className="max-w-[1440px] mx-auto px-6 lg:px-12 flex items-center">
                 {/* Logo/Brand - Left Aligned */}
                 <div className="flex-1 flex items-center">
-                    <a href="/" className="flex items-center">
+                    <Link to="/" className="flex items-center">
                         <img src={logoWhite} alt="Anova Logo" className="h-10 w-auto object-contain" />
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Navigation Menu - Centered */}
                 <div className="hidden lg:flex items-center justify-center gap-8 uppercase text-[11px] font-bold tracking-widest">
-                    <a href="#" className="hover:text-primary transition-colors">Home</a>
-                    <a href="#" className="hover:text-primary transition-colors">About</a>
+                    <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+                    <Link to="/about" className="hover:text-primary transition-colors">About</Link>
 
                     {/* Services Dropdown */}
                     <div
@@ -63,7 +64,7 @@ const Header: React.FC = () => {
                         </div>
                     </div>
 
-                    <a href="#" className="hover:text-primary transition-colors">Industries</a>
+                    <Link to="/industries" className="hover:text-primary transition-colors">Industries</Link>
 
                     {/* Resources Dropdown */}
                     <div
@@ -91,9 +92,9 @@ const Header: React.FC = () => {
                         </div>
                     </div>
 
-                    <a href="#" className="hover:text-primary transition-colors">Partners</a>
-                    <a href="#" className="hover:text-primary transition-colors">Careers</a>
-                    <a href="#" className="hover:text-primary transition-colors">Contact</a>
+                    <Link to="/partners" className="hover:text-primary transition-colors">Partners</Link>
+                    <Link to="/careers" className="hover:text-primary transition-colors">Careers</Link>
+                    <Link to="/contact" className="hover:text-primary transition-colors">Contact</Link>
                 </div>
 
                 {/* Search - Right Aligned */}
