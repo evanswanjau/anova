@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logoWhite from '../assets/images/logo-white.png';
 
 const Footer: React.FC = () => {
@@ -69,7 +70,7 @@ const Footer: React.FC = () => {
                                 <h4 className="font-bold mb-4 text-gray-200">Company</h4>
                                 <ul className="space-y-2 text-gray-500">
                                     <li><a className="hover:text-white transition-colors" href="#">About Anova</a></li>
-                                    <li><a className="hover:text-white transition-colors" href="#">Careers</a></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/careers">Careers</Link></li>
                                     <li><a className="hover:text-white transition-colors" href="#">Partners</a></li>
                                     <li><a className="hover:text-white transition-colors" href="#">Newsroom</a></li>
                                 </ul>

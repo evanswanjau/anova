@@ -1,0 +1,105 @@
+[
+    {
+        "id": "business-development-manager",
+        "title": "Business Development Manager",
+        "department": "Sales & Growth",
+        "location": "Nairobi, KE",
+        "type": "Full-Time",
+        "overview": "We are looking for a dynamic and results-oriented Business Development Manager to drive revenue growth and expand our market presence across East Africa. In this strategic role, you will identify new business opportunities in the enterprise IT, telecom, infrastructure, cloud, and cybersecurity sectors, build long-term relationships with key clients (including government, financial institutions, and large corporates), and position our company as the go-to partner for mission-critical ICT solutions. Reporting directly to the Head of Sales, you will collaborate closely with technical teams to translate complex technical offerings into compelling value propositions, achieve aggressive sales targets, and contribute to the overall strategic growth of the organization in a competitive regional market.",
+        "responsibilities": [
+            "Identify and pursue new business opportunities through market research, lead generation, networking events, cold outreach, and strategic partnerships in Kenya and East Africa.",
+            "Develop and execute comprehensive business development strategies to penetrate new verticals such as finance, government, telecom operators, manufacturing, and energy sectors.",
+            "Build and maintain strong relationships with C-level executives, IT directors, and procurement teams at target accounts to understand their pain points and align our solutions accordingly.",
+            "Prepare and deliver high-impact presentations, proposals, RFPs/RFIs responses, and demonstrations that highlight our enterprise infrastructure, networking, security, and cloud capabilities.",
+            "Collaborate with pre-sales engineers, solution architects, and product teams to customize offerings and create tailored solutions that address client-specific requirements.",
+            "Negotiate commercial terms, pricing, contracts, and SLAs to close deals while ensuring profitability and compliance with company policies.",
+            "Track and report on sales pipeline, forecasts, key performance metrics, and market intelligence using CRM tools (e.g., Salesforce or equivalent).",
+            "Conduct competitive analysis to stay ahead of market trends, emerging technologies, and competitor activities in the ICT space.",
+            "Participate in industry events, trade shows, webinars, and thought leadership activities to enhance brand visibility and generate qualified leads.",
+            "Mentor junior sales team members and support cross-functional initiatives to improve overall sales effectiveness and customer satisfaction.",
+            "Contribute to annual budgeting, sales planning, and go-to-market strategies for new products/services in the region."
+        ],
+        "requirements": [
+            "Bachelor’s degree in Business Administration, Marketing, IT, Telecommunications, Engineering, or a related field; MBA or relevant postgraduate qualification is a plus.",
+            "At least 7+ years of progressive experience in business development, sales, or account management within the IT, telecom, or enterprise technology sector in East Africa.",
+            "Proven track record of consistently meeting or exceeding sales targets, with demonstrable experience closing multi-million-shilling deals in enterprise ICT solutions.",
+            "Strong understanding of enterprise technologies including cloud platforms (AWS/Azure), networking, cybersecurity, virtualization, data centers, and ICT infrastructure projects.",
+            "Excellent communication, negotiation, presentation, and interpersonal skills with the ability to engage senior stakeholders effectively.",
+            "Experience working with government tenders, RFPs, and compliance-driven procurement processes in Kenya and the region.",
+            "Proficiency in CRM software, Microsoft Office suite, and sales analytics tools; familiarity with ERP systems is advantageous.",
+            "Self-motivated, target-driven, and able to work independently in a fast-paced environment with minimal supervision.",
+            "Willingness to travel frequently within Kenya and occasionally across East Africa for client meetings and events.",
+            "Relevant certifications such as sales credentials (e.g., Challenger Sale, Miller Heiman), or technical awareness certifications (e.g., AWS/Azure sales, ITIL) are highly desirable."
+        ]
+    },
+    {
+        "id": "network-specialist",
+        "title": "Network Specialist",
+        "department": "Infrastructure & Networking",
+        "location": "Nairobi, KE",
+        "type": "Full-Time",
+        "overview": "We are seeking a highly skilled Network Specialist to join our infrastructure team and take ownership of designing, implementing, maintaining, and optimizing enterprise-grade networks for our diverse client base across East Africa. This role focuses on ensuring reliable, high-performance, secure, and scalable network connectivity for critical business operations in sectors like finance, government, telecom, and large enterprises. You will work on cutting-edge technologies, troubleshoot complex issues, and contribute to the evolution of our network services portfolio in a region with growing digital transformation demands.",
+        "responsibilities": [
+            "Design, deploy, and maintain robust enterprise network infrastructures including LAN, WAN, WLAN, SD-WAN, and VPN solutions tailored to client requirements.",
+            "Configure and manage core networking equipment such as routers, switches, firewalls, load balancers, and wireless controllers from vendors like Cisco, Fortinet, Juniper, Huawei, or Aruba.",
+            "Perform network performance monitoring, capacity planning, and optimization to ensure low latency, high availability, and efficient bandwidth utilization.",
+            "Implement and maintain network security controls, including segmentation, ACLs, VPNs, and basic intrusion prevention to protect against common threats.",
+            "Troubleshoot and resolve complex network incidents, outages, and performance degradations in a timely manner, often under pressure in mission-critical environments.",
+            "Conduct regular network audits, vulnerability assessments, and compliance checks to align with standards such as ISO 27001, PCI-DSS, and local regulatory requirements.",
+            "Collaborate with security, systems, and cloud teams to integrate networking with broader infrastructure solutions including hybrid/multi-cloud environments.",
+            "Document network architectures, configurations, processes, and changes using tools like Visio, Lucidchart, or Confluence for knowledge sharing and handover.",
+            "Provide tier-2/3 technical support and escalation handling for client network issues, including on-site visits when required.",
+            "Participate in project implementations for network upgrades, expansions, migrations, and new site rollouts across regional locations.",
+            "Stay current with emerging networking technologies (e.g., intent-based networking, 5G integration, automation via Ansible/Python) and recommend adoption strategies.",
+            "Assist in vendor evaluations, proof-of-concepts, and technology roadmapping to enhance service offerings."
+        ],
+        "requirements": [
+            "Bachelor’s degree in Computer Science, Information Technology, Telecommunications Engineering, or a related technical field.",
+            "5+ years of hands-on experience in enterprise network design, implementation, and administration in medium-to-large organizations.",
+            "In-depth knowledge of networking protocols (TCP/IP, BGP, OSPF, MPLS, VLANs, QoS, IPv4/IPv6) and OSI/TCP-IP models.",
+            "Proven expertise with major networking vendors (Cisco CCNP-level or equivalent experience required; multi-vendor exposure preferred).",
+            "Experience with network monitoring tools (e.g., SolarWinds, PRTG, Wireshark, Nagios/Zabbix) and automation/scripting (Python, Ansible).",
+            "Familiarity with cloud networking concepts (AWS VPC, Azure VNet, hybrid connectivity) and SD-WAN technologies.",
+            "Strong analytical and problem-solving skills with the ability to diagnose issues from logs, packet captures, and performance metrics.",
+            "Relevant certifications such as CCNA/CCNP, CompTIA Network+, Juniper JNCIA/JNCIP, or equivalent are highly preferred.",
+            "Excellent communication skills for technical documentation, client interaction, and team collaboration.",
+            "Ability to work in a 24/7 on-call rotation for critical incidents when necessary.",
+            "Kenyan or East African market experience, including exposure to telecom backhaul, ISP environments, or government networks, is a strong advantage."
+        ]
+    },
+    {
+        "id": "ict-technical-lead",
+        "title": "ICT Technical Lead",
+        "department": "Professional Services",
+        "location": "Regional / Nairobi",
+        "type": "Contract",
+        "overview": "This is a high-impact strategic and leadership role responsible for overseeing the successful planning, execution, and delivery of complex, multi-million-shilling ICT projects for regional government entities, parastatals, and large enterprise clients across East Africa. As ICT Technical Lead, you will serve as the primary technical authority, bridging the gap between client requirements, internal engineering teams, and project management to ensure solutions are delivered on time, within budget, and to the highest technical standards. You will shape technical roadmaps, mitigate risks, drive innovation, and foster strong stakeholder relationships in a dynamic public-sector and regional expansion environment.",
+        "responsibilities": [
+            "Lead end-to-end technical oversight of large-scale ICT projects, from requirements gathering and solution design through implementation, testing, handover, and post-go-live support.",
+            "Engage directly with client stakeholders (permanent secretaries, CIOs, technical committees) to capture business needs, define scope, and align technical deliverables with strategic objectives.",
+            "Coordinate multidisciplinary internal teams (systems engineers, network specialists, security experts, developers) to ensure seamless collaboration and integrated solution delivery.",
+            "Develop comprehensive technical architectures, blueprints, BoQs, specifications, and implementation plans that comply with government standards, procurement regulations, and best practices.",
+            "Conduct risk assessments, develop mitigation strategies, and proactively address technical challenges to keep projects on schedule and within quality parameters.",
+            "Manage project milestones, deliverables, and dependencies while providing regular technical progress reports, dashboards, and executive briefings to clients and senior management.",
+            "Ensure adherence to methodologies (Agile, Waterfall, PRINCE2), quality assurance processes, change control, and documentation standards throughout the project lifecycle.",
+            "Facilitate knowledge transfer, capacity building, and training for client teams to promote sustainable adoption and long-term success of deployed solutions.",
+            "Contribute to pre-sales activities including tender preparation, technical proposal writing, presentations, and proof-of-concept demonstrations for upcoming opportunities.",
+            "Drive continuous improvement by capturing lessons learned, recommending process enhancements, and incorporating emerging technologies into future project designs.",
+            "Oversee vendor/subcontractor performance on joint projects, ensuring compliance with contractual obligations and technical specifications.",
+            "Support regional expansion initiatives by developing scalable frameworks and playbooks for replication across multiple countries."
+        ],
+        "requirements": [
+            "Bachelor’s degree (Master’s preferred) in Information Technology, Computer Science, Electrical/Electronic Engineering, or a closely related discipline.",
+            "10+ years of progressive experience in ICT project delivery, with at least 5 years in a senior technical leadership or project lead capacity managing complex, high-value implementations.",
+            "Demonstrated success leading multi-million-dollar (or equivalent) ICT projects in government, public sector, or large enterprise environments in East Africa.",
+            "Strong technical breadth across infrastructure domains: networking, servers/virtualization, cloud, security, enterprise applications, and integration technologies.",
+            "Certified in project management methodologies such as PMP, PRINCE2 Practitioner, or equivalent; Agile/Scrum experience is a plus.",
+            "Excellent leadership, stakeholder management, communication, and presentation skills with proven ability to influence without direct authority.",
+            "Deep understanding of public-sector procurement processes (e.g., PPRA in Kenya), tendering, contract management, and compliance requirements.",
+            "Proficiency in project management tools (MS Project, Jira, Primavera), diagramming (Visio), and collaboration platforms.",
+            "Ability to travel regionally (Kenya + neighboring countries) as required for site visits, client engagements, and project oversight.",
+            "Strong problem-solving mindset, attention to detail, and ability to perform under pressure in politically sensitive or high-visibility projects.",
+            "Additional certifications (e.g., ITIL, TOGAF, CCNP, AWS/Azure Architect) or experience with government digital transformation initiatives are highly desirable."
+        ]
+    }
+]
