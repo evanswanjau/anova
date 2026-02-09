@@ -49,6 +49,7 @@ const Contact: React.FC = () => {
                         className="absolute inset-0 opacity-50 bg-cover bg-center bg-no-repeat"
                         style={{ backgroundImage: `url(${contactHero})` }}
                     />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
                 </div>
                 <div className="max-w-[1440px] mx-auto px-6 lg:px-12 relative z-10 w-full text-left">
                     <div className="max-w-4xl">
