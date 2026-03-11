@@ -1,21 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logoWhite from '../assets/images/logo-white.png';
+import servicesData from '../data/services.json';
 
 const Header: React.FC = () => {
     const [isServicesOpen, setIsServicesOpen] = useState(false);
     const [isResourcesOpen, setIsResourcesOpen] = useState(false);
-
-    const services = [
-        "ICT Outsourcing",
-        "ICT Support",
-        "Networking Solutions",
-        "Hardware & Software Solutions",
-        "Telecommunications Solutions",
-        "CCTV & Monitoring",
-        "Access Control & Time Attendance",
-        "ICT Connectivity"
-    ];
 
     const resources = [
         "Blog / Insights",
@@ -44,21 +34,22 @@ const Header: React.FC = () => {
                         onMouseEnter={() => setIsServicesOpen(true)}
                         onMouseLeave={() => setIsServicesOpen(false)}
                     >
-                        <div className="flex items-center gap-1 group-hover:text-primary transition-colors">
+                        <Link to="/services" className="flex items-center gap-1 group-hover:text-primary transition-colors">
                             Services <span className="material-symbols-outlined text-sm">expand_more</span>
-                        </div>
+                        </Link>
 
                         {/* Services Dropdown Menu */}
-                        <div className={`absolute top-full left-1/2 -translate-x-1/2 w-64 bg-black border border-white/10 pt-4 pb-2 shadow-2xl transition-all duration-300 ${isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
+                        <div className={`absolute top-full left-1/2 -translate-x-1/2 w-64 bg-black border border-white/10 pt-4 pb-2 shadow-2xl transition-all duration-300 z-50 ${isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
                             <div className="flex flex-col">
-                                {services.map((service, index) => (
-                                    <a
-                                        key={index}
-                                        href="#"
-                                        className="px-6 py-3 hover:bg-white hover:text-black transition-colors border-l-2 border-transparent hover:border-primary"
+                                {servicesData.map((service) => (
+                                    <Link
+                                        key={service.id}
+                                        to={`/services/${service.id}`}
+                                        className="px-6 py-3 hover:bg-white hover:text-black transition-colors border-l-2 border-transparent hover:border-primary normal-case font-medium text-sm"
+                                        onClick={() => setIsServicesOpen(false)}
                                     >
-                                        {service}
-                                    </a>
+                                        {service.title}
+                                    </Link>
                                 ))}
                             </div>
                         </div>
@@ -77,13 +68,13 @@ const Header: React.FC = () => {
                         </div>
 
                         {/* Resources Dropdown Menu */}
-                        <div className={`absolute top-full left-1/2 -translate-x-1/2 w-56 bg-black border border-white/10 pt-4 pb-2 shadow-2xl transition-all duration-300 ${isResourcesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
+                        <div className={`absolute top-full left-1/2 -translate-x-1/2 w-56 bg-black border border-white/10 pt-4 pb-2 shadow-2xl transition-all duration-300 z-50 ${isResourcesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
                             <div className="flex flex-col">
                                 {resources.map((item, index) => (
                                     <a
                                         key={index}
                                         href="#"
-                                        className="px-6 py-3 hover:bg-white hover:text-black transition-colors border-l-2 border-transparent hover:border-primary"
+                                        className="px-6 py-3 hover:bg-white hover:text-black transition-colors border-l-2 border-transparent hover:border-primary normal-case font-medium text-sm"
                                     >
                                         {item}
                                     </a>

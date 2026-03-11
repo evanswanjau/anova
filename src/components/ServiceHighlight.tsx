@@ -8,9 +8,9 @@ const ServiceHighlight: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-0 bg-white shadow-xl">
                     <div className="p-12 flex flex-col justify-center">
                         <span className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Service Highlight</span>
-                        <h2 className="text-3xl font-bold mb-4">Precision Server Deployment</h2>
+                        <h2 className="text-3xl font-bold mb-4">Expert Equipment Setup</h2>
                         <p className="text-gray-600 mb-8 leading-relaxed">
-                            Experience unparalleled reliability with our custom-configured server solutions. From racking to cooling, we handle every aspect of your data center infrastructure with military-grade precision.
+                            Get the most out of your technology with our professional setup and configuration. We handle everything from office servers to network wiring with extreme care and expertise.
                         </p>
                         <a className="text-primary font-bold uppercase tracking-widest text-sm flex items-center gap-2 hover:gap-4 transition-all" href="#">
                             Browse Image Archive <span className="material-symbols-outlined text-sm bg-primary text-white rounded-none">add</span>

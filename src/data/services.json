@@ -1,0 +1,1050 @@
+[
+    {
+        "id": "ict-outsourcing",
+        "title": "ICT Outsourcing",
+        "category": "Managed Services",
+        "description": "Hand over your entire IT function to Anova and get back to running your business — fully supported, always on.",
+        "overview": "Running a business is hard enough without worrying about servers, software, and security. Anova's ICT Outsourcing service gives you a complete, dedicated IT department — from strategic planning to day-to-day support — delivered under a transparent Service Level Agreement. We use the ITIL framework of best practices to manage your technology environment so you can focus entirely on your core mission.",
+        "icon": "settings_suggest",
+        "features": [
+            "Full IT department as a managed service",
+            "ITIL-based service delivery framework",
+            "Strategic technology planning and roadmaps",
+            "End-to-end management from helpdesk to infrastructure"
+        ],
+        "deepDive": [
+            {
+                "title": "Your Entire IT Department, Without the Overhead",
+                "content": "Hiring, training, and retaining a full internal IT team is expensive and time-consuming — and a single person can only cover so much ground. When you outsource to Anova, you gain an entire bench of specialists: network engineers, security analysts, cloud architects, and helpdesk staff, all working under one coordinated team. We immerse ourselves in your business, learning your workflows and systems before we ever make a change. This means you get enterprise-grade IT capacity at a predictable monthly cost — no recruitment fees, no gaps in coverage, no single point of failure.",
+                "subpoints": [
+                    "A dedicated Anova team assigned to your account from day one",
+                    "Specialists across networking, security, cloud, and end-user support",
+                    "ITIL-driven processes for consistent, measurable service delivery",
+                    "No hidden costs — full scope defined in your SLA upfront"
+                ]
+            },
+            {
+                "title": "Built Around Your Business Goals, Not Just Your Tickets",
+                "content": "Most IT providers show up when things break. Anova operates differently. We align your technology strategy with your actual business objectives — whether that's expanding to a new branch, migrating to the cloud, or improving staff productivity. Our team sits in regular strategic reviews with your leadership, translating IT performance data into decisions that move your business forward. You're not just buying support; you're gaining a long-term technology partner who is invested in your growth.",
+                "subpoints": [
+                    "Quarterly technology reviews aligned to your business plan",
+                    "Proactive IT roadmaps that anticipate your next phase of growth",
+                    "CIO-level advisory available without the CIO salary",
+                    "Technology decisions made with your budget and ROI in mind"
+                ]
+            },
+            {
+                "title": "Resilience Engineered for the East African Business Environment",
+                "content": "We understand that managing IT in Nairobi — or across East Africa — comes with unique challenges that a generic outsourcing model cannot address. Power instability, variable ISP performance, and limited local warranty support require a provider who knows the terrain. Anova has built its outsourcing model around these realities, with redundant systems, local vendor relationships, and on-site engineers who are available when and where you need them.",
+                "subpoints": [
+                    "Infrastructure designed to handle local power and connectivity challenges",
+                    "On-site presence across Nairobi with rapid regional dispatch",
+                    "Local vendor and ISP management handled entirely by Anova",
+                    "Hardware sourced with locally-trackable warranties for peace of mind"
+                ]
+            },
+            {
+                "title": "Total Transparency — You Always Know What You're Getting",
+                "content": "Outsourcing IT doesn't mean losing visibility. Anova provides clear, jargon-free monthly reports showing system health, helpdesk performance, security posture, and upcoming maintenance. Every commitment we make is backed by a signed SLA with defined response times and escalation paths. You'll always have a named Account Manager who knows your business and is reachable when it matters most.",
+                "subpoints": [
+                    "Monthly reports in plain language — no IT jargon",
+                    "Named Account Manager and direct access to senior engineers",
+                    "SLA-backed response and resolution time commitments",
+                    "Predictable monthly billing with no surprise charges"
+                ]
+            }
+        ],
+        "capabilities": [
+            {
+                "title": "End-to-End IT Management",
+                "description": "From servers and networks to helpdesk and cloud, Anova manages your full IT environment under one SLA.",
+                "icon": "dns",
+                "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "title": "Strategic Technology Advisory",
+                "description": "CIO-level guidance to help your leadership make informed decisions on technology investment and digital growth.",
+                "icon": "security",
+                "image": "https://images.unsplash.com/photo-1510511459019-5dee2c1a7eaa?q=80&w=2070&auto=format&fit=crop"
+            }
+        ],
+        "stats": [
+            {
+                "label": "RESOLUTION TIME",
+                "value": "< 15 MIN",
+                "percentage": 85
+            },
+            {
+                "label": "SYSTEM AVAILABILITY",
+                "value": "99.99%",
+                "percentage": 99.99
+            },
+            {
+                "label": "VENDOR EFFICIENCY",
+                "value": "98%",
+                "percentage": 98
+            }
+        ],
+        "subservices": [
+            {
+                "title": "On-Site IT Placement",
+                "description": "Experienced, full-time Anova engineers working from your office — fully managed and supported by our team."
+            },
+            {
+                "title": "Infrastructure Modernisation",
+                "description": "A phased plan to retire legacy hardware, move workloads to the cloud, and future-proof your IT environment."
+            },
+            {
+                "title": "CIO-as-a-Service",
+                "description": "Senior technology leadership for your board — strategic decision-making and digital transformation guidance without the executive hire."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What exactly does Anova manage under an ICT Outsourcing agreement?",
+                "answer": "Our outsourcing scope covers your entire technology environment — servers, networks, cloud platforms, end-user devices, security, and your helpdesk. Before we begin, we carry out a detailed audit of your existing setup so we understand every system and dependency. From there, we take ownership of day-to-day IT operations, proactive maintenance, vendor management, and strategic planning. You receive a single monthly invoice, a single point of contact, and a clear SLA that defines exactly what is covered and what response times you can expect. Nothing is left ambiguous."
+            },
+            {
+                "question": "How is outsourcing to Anova more cost-effective than building an in-house IT team?",
+                "answer": "When you hire in-house, you're paying for a single person's skills, availability, and working hours. One IT employee cannot cover networking, security, cloud, and helpdesk at an expert level simultaneously. With Anova, you get a full team of specialists for a fraction of the combined cost — with no recruitment fees, benefits, training costs, or coverage gaps during leave. Beyond the direct savings, our proactive management approach prevents the expensive downtime that typically occurs in reactive 'fix-it-when-it-breaks' environments. Most clients find that outsourcing actually reduces their total IT spend while significantly improving performance."
+            },
+            {
+                "question": "How do you transition us to a managed service without disrupting our operations?",
+                "answer": "We follow a structured onboarding process that begins with a deep-dive discovery phase. Before we change anything, our engineers spend time learning your environment — your software, your workflows, and your most common pain points — without interfering with daily operations. We then stabilise critical systems first (connectivity, security, backups) before moving to optimisation. The transition is gradual and fully managed, with dedicated support during the handover period so your staff always has someone to call. By the time the process is complete, most teams notice only positive changes — faster systems, fewer interruptions, and a support team that actually picks up the phone."
+            },
+            {
+                "question": "Can we scale the service up or down as our business changes?",
+                "answer": "Absolutely. Our outsourcing agreements are designed to grow with you. If you open a new branch, hire additional staff, or expand into new markets, we scale your IT support and infrastructure accordingly. Equally, if you need to reduce scope during quieter periods, we can adjust. This flexibility is one of the core advantages of the outsourcing model — you're never locked into a fixed headcount or a hardware investment that no longer fits your needs. We review your service scope formally every quarter and can make adjustments at any point."
+            }
+        ],
+        "specializedInsights": [
+            {
+                "title": "The Strategic Case for ICT Outsourcing in East Africa",
+                "time": "6 MIN READ",
+                "category": "MANAGEMENT"
+            },
+            {
+                "title": "How ITIL-Based Delivery Reduces Business Risk",
+                "time": "4 MIN READ",
+                "category": "STRATEGY"
+            }
+        ]
+    },
+    {
+        "id": "ict-support",
+        "title": "ICT Support",
+        "category": "Technical Services",
+        "description": "Fast, professional technical support — from everyday fixes to complex issues — tailored to your business and available when you need it.",
+        "overview": "Technology problems don't wait for a convenient moment. Anova's ICT Support service gives your team a direct line to qualified technicians who resolve issues quickly, with minimal disruption to your operations. Whether you need on-site assistance, remote troubleshooting, or scheduled maintenance, we tailor our support around your business — not a generic ticketing queue.",
+        "icon": "support_agent",
+        "features": [
+            "24/7 helpdesk staffed by qualified technicians",
+            "On-site dispatch across Nairobi and East Africa",
+            "Scheduled preventative maintenance programmes",
+            "Transparent SLAs tailored to your business needs"
+        ],
+        "deepDive": [
+            {
+                "title": "Support That's Built Around Your Business, Not a Generic Queue",
+                "content": "Anova recognises that no two businesses are the same. A 10-person consultancy has different IT needs from a 200-person manufacturing firm, and a cookie-cutter support plan serves neither well. That's why we start every support engagement by understanding your specific technology environment, your team's working patterns, and the systems that are most critical to your operations. From there, we design a Service Level Agreement that reflects your actual priorities — with clearly defined response times, escalation paths, and a dedicated point of contact who knows your setup.",
+                "subpoints": [
+                    "Custom SLAs designed around your business priorities",
+                    "Dedicated Account Manager who knows your environment",
+                    "Support tiers from basic helpdesk to full managed coverage",
+                    "Regular service reviews to ensure the plan still fits your needs"
+                ]
+            },
+            {
+                "title": "On-Site When You Need a Physical Presence",
+                "content": "Some IT problems simply cannot be solved over the phone. A failed server, a damaged network port, or a hardware issue caused by a power surge requires a technician on the ground — quickly. Anova maintains a team of field engineers in Nairobi with the capacity for rapid on-site dispatch across the region. Our engineers arrive equipped to diagnose and resolve, not just assess and escalate. We understand local conditions — from the effects of power fluctuations on hardware to the logistical realities of reaching your office — and we plan accordingly.",
+                "subpoints": [
+                    "Rapid on-site dispatch for hardware, network, and infrastructure issues",
+                    "Engineers equipped with spare parts and diagnostic tools on arrival",
+                    "Field coverage across Nairobi and extended regional dispatch",
+                    "Clear ETA commitments for every on-site callout"
+                ]
+            },
+            {
+                "title": "Prevention Over Repair — The Case for Scheduled Maintenance",
+                "content": "The most expensive IT problem is the one that shuts your business down. Anova's preventative maintenance programmes are designed to catch and resolve issues before they become outages. We perform scheduled physical cleaning of hardware, firmware and patch updates, storage health checks, and performance diagnostics on a regular cycle. This is not just about extending hardware life — it's about ensuring your team never loses a working day to a problem that could have been seen coming weeks in advance.",
+                "subpoints": [
+                    "Scheduled physical and technical maintenance for all key hardware",
+                    "Automated patch and firmware updates applied with zero disruption",
+                    "Proactive storage and server health monitoring between visits",
+                    "Maintenance reports provided after every scheduled session"
+                ]
+            },
+            {
+                "title": "Remote Support That Actually Resolves — Not Just Logs",
+                "content": "For software, connectivity, and configuration issues, Anova's remote support team uses secure remote-access tools to connect to your staff's devices in seconds. We don't just log a ticket and wait — our engineers take active ownership of the issue and see it through to resolution. We track First Call Resolution rates as a core performance metric because we believe the measure of good support is whether the problem actually gets fixed, not whether it gets acknowledged.",
+                "subpoints": [
+                    "Secure remote access tools for rapid software and connectivity fixes",
+                    "First Call Resolution tracked and reported to you monthly",
+                    "Remote support covers laptops, desktops, servers, and mobile devices",
+                    "Clear, plain-language communication with your staff throughout"
+                ]
+            }
+        ],
+        "capabilities": [
+            {
+                "title": "24/7 Enterprise Helpdesk",
+                "description": "Round-the-clock access to qualified Anova technicians, with defined response times and direct escalation to senior engineers.",
+                "icon": "headset_mic",
+                "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?q=80&w=2071&auto=format&fit=crop"
+            },
+            {
+                "title": "On-Site Technical Dispatch",
+                "description": "Rapid physical response for hardware failures and infrastructure issues, with field engineers across Nairobi and East Africa.",
+                "icon": "engineering",
+                "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop"
+            }
+        ],
+        "stats": [
+            {
+                "label": "ON-SITE DISPATCH",
+                "value": "< 60 MIN",
+                "percentage": 90
+            },
+            {
+                "label": "FIRST-CALL FIX RATE",
+                "value": "94%",
+                "percentage": 94
+            },
+            {
+                "label": "HARDWARE UPTIME",
+                "value": "99.5%",
+                "percentage": 99.5
+            }
+        ],
+        "subservices": [
+            {
+                "title": "Desktop & Laptop Servicing",
+                "description": "Physical cleaning, performance tuning, and hardware diagnostics for all employee workstations on a scheduled cycle."
+            },
+            {
+                "title": "Patch Management",
+                "description": "Automated and supervised deployment of OS and security updates across your device fleet — applied outside business hours."
+            },
+            {
+                "title": "Remote Troubleshooting",
+                "description": "Secure screen-sharing support that resolves the majority of software, email, and connectivity issues in under 15 minutes."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How does Anova handle urgent issues differently from routine requests?",
+                "answer": "We operate a structured severity classification system so that critical business emergencies are never treated the same as a routine printer query. A total office outage, server failure, or major security incident triggers immediate escalation to our senior engineers with a guaranteed 15-minute response target. Routine requests like new user setups or software installations are handled within standard working hours. Every client also has a named Account Manager who understands your business calendar — if you have a critical deadline or a major event coming up, we can place your account on elevated priority to ensure your team has uninterrupted support during that window."
+            },
+            {
+                "question": "Our staff are not technical. How does your team communicate with them?",
+                "answer": "We train our support engineers to communicate clearly and without jargon. When your staff calls the helpdesk, they speak to a real person who listens, explains what's happening in plain language, and walks them through any steps they need to take. We don't send people on a loop of automated menus. If we identify that a particular issue keeps recurring for multiple staff members, we'll flag it to your Account Manager and, where appropriate, provide a short briefing or quick-reference guide to help your team handle it independently in future. Good support builds capability in your team — it doesn't create dependency."
+            },
+            {
+                "question": "Can you support staff who work remotely or travel frequently?",
+                "answer": "Yes. Our support model covers your team wherever they are working. Staff working from home or travelling on business can access the helpdesk through the same channels as office-based colleagues. We use secure remote-access tools to connect to their devices regardless of location. For travel scenarios, we also assist with VPN configuration so remote staff can access business systems safely on public networks. If a device fails while a team member is away, we coordinate with regional partners and couriers to get a replacement to them as quickly as possible. Geography doesn't limit who we support."
+            },
+            {
+                "question": "How do you measure and report on the quality of your support?",
+                "answer": "Every support interaction is logged and tracked against our SLA commitments. We report to you monthly on key metrics including average response time, resolution time, first-call resolution rate, and open ticket volumes. We also collect satisfaction feedback from your staff after each closed ticket. These reports are reviewed in our regular service meetings so that any patterns — recurring issues, departments with higher support volumes, hardware that keeps failing — are identified and addressed proactively. We hold ourselves accountable to the numbers, and we share them with you transparently."
+            }
+        ],
+        "specializedInsights": [
+            {
+                "title": "Why Preventative IT Maintenance Pays for Itself",
+                "time": "5 MIN READ",
+                "category": "TECHNICAL"
+            },
+            {
+                "title": "Building a Support-Ready Culture in Your Business",
+                "time": "4 MIN READ",
+                "category": "OPERATIONS"
+            }
+        ]
+    },
+    {
+        "id": "networking-solutions",
+        "title": "Networking Solutions",
+        "category": "Infrastructure",
+        "description": "Enterprise-grade office networks designed for East Africa — resilient, secure, and built to handle how your business actually works.",
+        "overview": "Your network is the foundation everything else depends on. A slow, patchy, or insecure network doesn't just frustrate your team — it limits what your business can achieve. Anova designs, installs, and manages office networks that are fast, reliable, and engineered to handle the real-world conditions of doing business in Kenya and East Africa.",
+        "icon": "hub",
+        "features": [
+            "End-to-end office network design and installation",
+            "Enterprise Wi-Fi with full-coverage deployment",
+            "Multi-provider failover for always-on connectivity",
+            "Next-generation firewall and Zero-Trust security"
+        ],
+        "deepDive": [
+            {
+                "title": "Networks Designed for the Way East African Businesses Actually Operate",
+                "content": "Off-the-shelf networking solutions are built for stable environments with consistent power and reliable ISPs. That's not always the reality here. Anova approaches every network design with the specific conditions of your location in mind — the quality of available ISPs, the building materials that affect Wi-Fi penetration, the frequency of power fluctuations, and your growth trajectory. The result is a network that doesn't just work on day one, but continues to perform reliably as your business and its demands evolve.",
+                "subpoints": [
+                    "Site surveys before any design — no assumptions, no guesswork",
+                    "Wi-Fi deployment engineered for your specific building layout",
+                    "Hardware selected for resilience against local power conditions",
+                    "Scalable architecture built to grow from 10 to 500+ users"
+                ]
+            },
+            {
+                "title": "Always Online — Even When Your Primary Provider Isn't",
+                "content": "A single internet connection is a single point of failure. Anova builds multi-path networks that combine multiple ISP links — fiber, wireless, and 5G — so that when one provider goes down, your business stays online automatically. We manage your ISP relationships on your behalf, hold providers accountable to their SLAs, and escalate fault resolutions so you don't have to spend hours on hold with your ISP while your team sits idle.",
+                "subpoints": [
+                    "Automatic failover between primary and backup internet links",
+                    "ISP management and fault escalation handled entirely by Anova",
+                    "SD-WAN technology to intelligently route traffic across connections",
+                    "UPS protection for all critical network hardware"
+                ]
+            },
+            {
+                "title": "Security Starts at the Network Edge",
+                "content": "Every device that connects to your network is a potential entry point for a threat. Anova implements layered network security that starts at the perimeter — with next-generation firewalls and intrusion prevention systems — and extends to every device and user through Zero-Trust access controls. We segment your network so that a breach in one area cannot spread across your entire environment, and we monitor traffic continuously for unusual patterns.",
+                "subpoints": [
+                    "Next-generation firewall protecting your entire office perimeter",
+                    "Network segmentation separating sensitive data from general traffic",
+                    "Zero-Trust policies ensuring every device is verified before accessing resources",
+                    "Encrypted VPN tunnels for remote staff and branch connectivity"
+                ]
+            },
+            {
+                "title": "Real-Time Visibility Into Your Network's Performance",
+                "content": "Anova provides clients with live dashboards and monthly health reports that show bandwidth usage, uptime, latency, and security event summaries. You should never have to guess whether your network is performing to the standard you're paying for. Our team monitors your network continuously and responds to anomalies before they affect your operations — and when issues do occur, you hear about them from us first.",
+                "subpoints": [
+                    "Live network dashboards accessible to your IT or management team",
+                    "Monthly performance reports with trend analysis",
+                    "Proactive alerts when traffic or hardware behaves unusually",
+                    "Strict SLA commitments for uptime and incident response"
+                ]
+            }
+        ],
+        "capabilities": [
+            {
+                "title": "SD-WAN & Multi-Link Management",
+                "description": "Intelligent bonding of multiple internet connections for maximum speed, reliability, and automatic failover.",
+                "icon": "router",
+                "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "title": "Zero-Trust Network Access",
+                "description": "Identity-driven security controls that verify every user and device before granting access to business resources.",
+                "icon": "lock",
+                "image": "https://images.unsplash.com/photo-1510511459019-5dee2c1a7eaa?q=80&w=2070&auto=format&fit=crop"
+            }
+        ],
+        "stats": [
+            {
+                "label": "BACKBONE LATENCY",
+                "value": "< 5MS",
+                "percentage": 95
+            },
+            {
+                "label": "FAILOVER SPEED",
+                "value": "< 1S",
+                "percentage": 99
+            },
+            {
+                "label": "PACKET DELIVERY",
+                "value": "99.99%",
+                "percentage": 99.99
+            }
+        ],
+        "subservices": [
+            {
+                "title": "Structured Cabling & Fiber",
+                "description": "Professional cable management and fiber backbone installation for offices, buildings, and multi-site campuses."
+            },
+            {
+                "title": "Guest Wi-Fi Management",
+                "description": "Isolated wireless networks for visitors that keep your internal business data completely separate and protected."
+            },
+            {
+                "title": "Network Performance Audits",
+                "description": "A thorough assessment of your existing network to identify bottlenecks, coverage gaps, and security vulnerabilities."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Our internet is inconsistent. Can Anova actually fix that, or is it just an ISP problem?",
+                "answer": "Inconsistent internet is rarely just one problem — it's usually a combination of ISP performance, network hardware quality, and how your office traffic is managed. Anova addresses all three. We can provision a secondary internet connection from a different provider so that if your primary link drops, your business switches over automatically without your team noticing a thing. We also manage the ISP relationship on your behalf, holding them accountable to their service commitments and escalating faults directly. On the hardware side, we ensure your routers and switches are enterprise-grade, properly configured, and protected from power instability. Most clients see a significant improvement within the first month."
+            },
+            {
+                "question": "How do you handle Wi-Fi that doesn't reach all areas of our office?",
+                "answer": "Coverage gaps are one of the most common and fixable networking problems we encounter. We begin with a professional wireless site survey that maps the signal strength throughout your space — including areas blocked by thick walls, partitions, or interference from other wireless devices. Based on the survey, we design an access point layout that ensures consistent, strong Wi-Fi across your entire office, including meeting rooms, server areas, and outdoor spaces if needed. We use enterprise-grade access points that are centrally managed, meaning we can adjust settings and troubleshoot remotely without needing to physically visit every device."
+            },
+            {
+                "question": "What does Zero-Trust networking mean in practice for our business?",
+                "answer": "Zero-Trust is a security model built on the principle that no device or user should be trusted automatically — not even someone already inside your office network. In practice, it means that when a staff member connects to a business resource, the system verifies who they are and whether their device meets your security requirements before granting access. If a laptop is compromised or a user's credentials are stolen, Zero-Trust prevents that incident from spreading to your other systems. For businesses handling sensitive client data, financial records, or regulated information, this approach provides a significantly higher level of protection than a traditional office firewall."
+            },
+            {
+                "question": "How long does it take to design and install a new office network?",
+                "answer": "Timelines vary depending on the size and complexity of your office, but a typical small-to-medium office network can be designed, cabled, and commissioned within two to four weeks. We begin with a site assessment and produce a detailed design for your review before any physical work begins. For larger offices or multi-site deployments, we work in phases to minimise disruption. All physical installation work is scheduled outside of business hours wherever possible, and we test the full network thoroughly before handing it over. We also provide your team with training on how to use management dashboards and report any issues."
+            }
+        ],
+        "specializedInsights": [
+            {
+                "title": "Building Office Networks for African Business Realities",
+                "time": "6 MIN READ",
+                "category": "INFRASTRUCTURE"
+            },
+            {
+                "title": "SD-WAN vs Traditional Networking: A Practical Comparison",
+                "time": "5 MIN READ",
+                "category": "TECHNICAL"
+            }
+        ]
+    },
+    {
+        "id": "hardware-software-solutions",
+        "title": "Hardware & Software Solutions",
+        "category": "Technology Supply",
+        "description": "Genuine, enterprise-grade equipment and software — sourced, configured, and supported by Anova so your team has the tools they need to do their best work.",
+        "overview": "The right hardware and software make a tangible difference to how your team performs every day. Anova partners with leading global brands including HP, Dell, Microsoft, and Apple to provide authentic, enterprise-grade technology that is properly specified for your needs, configured before it reaches your desk, and supported throughout its working life.",
+        "icon": "inventory",
+        "features": [
+            "Authorised procurement from global brand distributors",
+            "100% authenticity guarantee — no grey-market risk",
+            "Pre-configured devices ready to use from day one",
+            "Ongoing lifecycle management from deployment to retirement"
+        ],
+        "deepDive": [
+            {
+                "title": "Getting the Right Technology for Your Business — Not Just the Latest Spec Sheet",
+                "content": "The hardware market is full of options, and not all of them are right for your business. Anova's procurement process starts with understanding your team's actual workflows — the software you run, the intensity of daily use, and the environments your devices operate in. From that foundation, we match you with hardware that genuinely fits, rather than defaulting to the most expensive model or the cheapest option available. Our goal is a device that performs reliably for five or more years and doesn't need to be replaced prematurely because it was under-specified from the start.",
+                "subpoints": [
+                    "Workflow audit before any hardware recommendations are made",
+                    "Specification matched to actual usage — not marketing benchmarks",
+                    "Hardware sourced for durability in local environmental conditions",
+                    "Clear documentation of specifications and warranties for your records"
+                ]
+            },
+            {
+                "title": "Authentic Products, Local Warranties, No Surprises",
+                "content": "The grey market for IT hardware is a real problem in East Africa. Devices that appear to be genuine may carry invalid warranties, tampered firmware, or components that fail quickly under real working conditions. Anova sources exclusively through authorised distributors for every brand we supply, which means every device comes with a genuine, locally-traceable warranty and full manufacturer support. When something goes wrong — as it eventually will with any hardware — you have a warranty that actually works.",
+                "subpoints": [
+                    "Authorised distributor relationships with HP, Dell, Microsoft, and Apple",
+                    "Locally-trackable warranties for every device we supply",
+                    "Full documentation provided for your audit and compliance needs",
+                    "Zero grey-market or parallel-import products in our supply chain"
+                ]
+            },
+            {
+                "title": "Software That's Legal, Properly Licensed, and Cost-Optimised",
+                "content": "Software licensing is deceptively complicated. Businesses frequently overpay for licences they don't use, or unknowingly run software in violation of their agreement — both of which carry real financial and legal risk. Anova manages your software estate proactively: auditing what you actually use, consolidating renewal dates, eliminating duplicate or dormant accounts, and ensuring you're on the most cost-effective licensing tier available. Most clients reduce their annual software spend by 15 to 30% through this process alone.",
+                "subpoints": [
+                    "Full audit of current software licences and actual usage",
+                    "Consolidation and renegotiation of Microsoft, Adobe, and other key licences",
+                    "Renewal calendar managed by Anova — no missed dates or lapses",
+                    "100% licence compliance for internal and external audits"
+                ]
+            },
+            {
+                "title": "Managing the Full Lifecycle — From Delivery to Secure Disposal",
+                "content": "The cost of a laptop or server doesn't end at purchase. Anova provides Asset Lifecycle Management that tracks every device from the moment it's delivered to the day it's securely decommissioned. We monitor hardware health to flag devices approaching end-of-life before they fail, plan replacement cycles into your IT budget, and ensure that when devices are retired, data is wiped securely and hardware is disposed of responsibly. This turns your technology spending from a series of unpredictable costs into a managed, budgetable programme.",
+                "subpoints": [
+                    "Asset register maintained by Anova for every device in your fleet",
+                    "Proactive replacement planning based on health monitoring data",
+                    "Secure data destruction and responsible hardware disposal",
+                    "Total Cost of Ownership reporting so you can plan budgets accurately"
+                ]
+            }
+        ],
+        "capabilities": [
+            {
+                "title": "Strategic Procurement",
+                "description": "Authorised sourcing of enterprise hardware from global brands, delivered with local warranties and full documentation.",
+                "icon": "shopping_cart",
+                "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=1935&auto=format&fit=crop"
+            },
+            {
+                "title": "Asset Lifecycle Management",
+                "description": "End-to-end tracking and management of your technology assets from delivery and deployment to secure decommissioning.",
+                "icon": "account_tree",
+                "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop"
+            }
+        ],
+        "stats": [
+            {
+                "label": "PROCUREMENT LEAD",
+                "value": "< 48HR",
+                "percentage": 92
+            },
+            {
+                "label": "LICENCE COMPLIANCE",
+                "value": "100%",
+                "percentage": 100
+            },
+            {
+                "label": "ASSET ACCURACY",
+                "value": "99.9%",
+                "percentage": 99.9
+            }
+        ],
+        "subservices": [
+            {
+                "title": "Hardware Sourcing & Supply",
+                "description": "Authorised procurement of laptops, desktops, servers, and storage from leading global brands with full local support."
+            },
+            {
+                "title": "Preventative Hardware Maintenance",
+                "description": "Scheduled physical and technical servicing to extend device lifespan and prevent unexpected hardware failures."
+            },
+            {
+                "title": "Licence Management & Renewals",
+                "description": "Complete management of your software licence estate — ensuring compliance, eliminating waste, and reducing cost."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Why does it matter where hardware is sourced from?",
+                "answer": "In East Africa, a significant volume of IT hardware moves through unofficial channels — grey market imports that may look identical to genuine products but carry critical differences. These devices often have no valid local warranty, may have been handled in ways that compromise firmware integrity, and sometimes contain non-original components that fail faster than expected. When something goes wrong with grey-market hardware, you're left without manufacturer support and potentially facing a full replacement cost. Anova sources exclusively through authorised channels, which means every device we supply is backed by a genuine warranty, has full traceability back to the manufacturer, and is exactly what it claims to be."
+            },
+            {
+                "question": "How do you decide what specifications are right for our team?",
+                "answer": "We start by understanding how your team actually works — what software they use, how many applications they run simultaneously, whether they work on the move or at fixed desks, and what the consequences are if their device fails. From that conversation, we map out the minimum viable specification for each role and then factor in durability and longevity. We're not in the business of selling the most expensive option; we're in the business of recommending the specification that will perform reliably for five or more years without needing an early replacement. That approach delivers far better long-term value than buying on price alone."
+            },
+            {
+                "question": "We're not sure if we're overpaying for our Microsoft licences. How can Anova help?",
+                "answer": "This is one of the most common issues we encounter, and it's almost always solvable. Microsoft's licensing structure is complex, and businesses frequently end up paying for features or user counts that don't reflect their actual needs. Anova conducts a thorough licence audit that maps what you currently pay against what your team actually uses. We identify redundant accounts, recommend the most cost-effective licence tier for each user type, and consolidate your renewal dates into a single, predictable annual schedule. Most clients find meaningful savings in this process, and the added benefit is that you go into any licence audit with full confidence that your software estate is 100% compliant."
+            },
+            {
+                "question": "What happens to our data when we retire old devices?",
+                "answer": "Secure data disposal is something businesses often overlook, and it carries real legal and reputational risk. When a device reaches end-of-life, simply deleting files is not sufficient — data can be recovered from a drive that has only been formatted. Anova follows a formal data destruction process that meets international standards, using certified software tools that overwrite data to the point of unrecoverability. Where hardware is to be disposed of physically, we use certified e-waste recycling channels. You receive a destruction certificate for your records, providing documented evidence of compliance if ever required."
+            }
+        ],
+        "specializedInsights": [
+            {
+                "title": "How to Time a Hardware Refresh for Maximum Value",
+                "time": "4 MIN READ",
+                "category": "PROCUREMENT"
+            },
+            {
+                "title": "Navigating Microsoft Licensing: What Business Leaders Need to Know",
+                "time": "6 MIN READ",
+                "category": "SOFTWARE"
+            }
+        ]
+    },
+    {
+        "id": "telecommunications-solutions",
+        "title": "Telecommunications Solutions",
+        "category": "Communications",
+        "description": "Modern, reliable business communication systems — from cloud-based phone systems to professional boardroom video — that keep your team and your clients connected.",
+        "overview": "How your business communicates shapes how it is perceived. A dropped call, a stuttering video conference, or an unmanned phone line sends the wrong signal to clients and colleagues alike. Anova designs and manages telecommunications systems that are professional, reliable, and built to scale with your business — whether you have five people or five hundred.",
+        "icon": "call",
+        "features": [
+            "Cloud PBX and VoIP phone systems",
+            "Unified voice, video, and messaging platforms",
+            "Professional boardroom video conferencing",
+            "Automatic failover to mobile when the internet drops"
+        ],
+        "deepDive": [
+            {
+                "title": "Moving Beyond the Traditional Phone Line",
+                "content": "Traditional PSTN phone lines are expensive, inflexible, and poorly suited to how modern businesses operate. VoIP and cloud-based phone systems treat voice as data — making your phone system software-defined, scalable in minutes, and accessible from any device, anywhere. Anova designs, deploys, and manages these systems for businesses across East Africa, ensuring your team can communicate professionally whether they're at their desk, working from home, or travelling internationally. Adding a new user, setting up a call queue, or routing calls to a mobile takes minutes — not a visit from a telecoms engineer.",
+                "subpoints": [
+                    "Cloud PBX systems that eliminate expensive physical PBX hardware",
+                    "Office extensions accessible on smartphones, laptops, and desk phones",
+                    "New lines and users provisioned in minutes from a central dashboard",
+                    "Professional features including call recording, call queuing, and auto-attendant"
+                ]
+            },
+            {
+                "title": "Crystal-Clear Audio and Video — Consistently",
+                "content": "The quality of a phone or video call is directly tied to how your network manages voice data. Anova applies Quality of Service (QoS) configurations that prioritise voice and video traffic on your network, ensuring your calls remain clear even when the office is busy with other internet activity. We also manage the technical performance of your communication platform proactively, monitoring for quality degradation and resolving it before your team reports a problem. When you're closing a deal or presenting to a client, communication quality is non-negotiable.",
+                "subpoints": [
+                    "QoS configuration ensuring voice traffic is always prioritised",
+                    "Proactive monitoring for call quality and jitter on your network",
+                    "HD voice and video as standard across all supported platforms",
+                    "Performance reporting showing call quality metrics over time"
+                ]
+            },
+            {
+                "title": "Boardrooms That Work — Every Time",
+                "content": "A boardroom that fails during a client presentation is more than an inconvenience — it's a reputational risk. Anova designs and installs boardroom video conferencing systems that are simple for any team member to use, regardless of technical ability. We integrate with platforms your clients and partners already use — Microsoft Teams, Zoom, Google Meet — and commission each room so that starting a meeting is as simple as pressing one button. We also provide ongoing support and firmware management so your boardroom technology stays current.",
+                "subpoints": [
+                    "Professional camera, audio, and display systems for boardrooms of any size",
+                    "One-touch meeting start compatible with Teams, Zoom, and Google Meet",
+                    "Training provided so any staff member can run a meeting confidently",
+                    "Remote monitoring and updates to keep boardroom systems current"
+                ]
+            },
+            {
+                "title": "Staying Reachable When the Internet or Power Fails",
+                "content": "In East Africa, connectivity disruptions are a fact of life. Anova builds telecommunications systems with automatic failover built in — so when your primary internet link goes down, calls automatically route to mobile numbers without interruption. Because your phone system lives in the cloud, a power cut at your office doesn't mean your clients hear a dead line. Your team stays reachable, and your business keeps running.",
+                "subpoints": [
+                    "Automatic call rerouting to mobile when internet or power is disrupted",
+                    "Cloud-hosted PBX remains operational even if your office goes offline",
+                    "Communication hardware protected by UPS and surge protection",
+                    "Business continuity planning for communications built into every deployment"
+                ]
+            }
+        ],
+        "capabilities": [
+            {
+                "title": "Unified Communications",
+                "description": "Voice, video, chat, and file sharing in a single platform — giving your team one tool for all business communication.",
+                "icon": "forum",
+                "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=2069&auto=format&fit=crop"
+            },
+            {
+                "title": "Enterprise VoIP Systems",
+                "description": "Scalable, high-quality IP telephony that reduces costs and gives your team professional communication tools on any device.",
+                "icon": "settings_phone",
+                "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop"
+            }
+        ],
+        "stats": [
+            {
+                "label": "VOICE JITTER",
+                "value": "< 10MS",
+                "percentage": 95
+            },
+            {
+                "label": "CALL COMPLETION",
+                "value": "99.9%",
+                "percentage": 99.9
+            },
+            {
+                "label": "AUDIO FIDELITY",
+                "value": "HD 100%",
+                "percentage": 100
+            }
+        ],
+        "subservices": [
+            {
+                "title": "Cloud PBX & VoIP",
+                "description": "Software-based office phone systems that live in the cloud, accessible from any device and managed remotely by Anova."
+            },
+            {
+                "title": "Boardroom Video Conferencing",
+                "description": "End-to-end installation of HD camera, audio, and display systems for professional boardrooms and meeting spaces."
+            },
+            {
+                "title": "Call Flow Automation",
+                "description": "Professional auto-attendant menus, call queues, and routing logic to ensure every caller reaches the right person."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "We currently use traditional phone lines. Is switching to VoIP complicated?",
+                "answer": "The transition is simpler than most businesses expect. Anova manages the entire migration — porting your existing numbers to the new system, configuring call flows, and training your team — with no disruption to incoming calls during the switchover. Your existing phone numbers are preserved, and your team can keep using desk phones if preferred, or switch to software-based phones on their computers or mobiles. The main difference your team notices is that the system becomes far more flexible and that internal calls between colleagues and branches become free. We manage the technical complexity entirely so your team just experiences a better phone system."
+            },
+            {
+                "question": "What will a cloud phone system cost us compared to what we pay now?",
+                "answer": "Most businesses that switch from traditional lines to cloud VoIP see a reduction of 30% to 50% in their monthly communication costs. You eliminate line rental fees, reduce international call rates significantly, and remove the need for expensive physical PBX hardware. You pay on a per-user basis for exactly the capacity you need, making the model inherently cost-efficient. You also avoid the capital cost of upgrading physical PBX equipment as your business grows — scaling up is a configuration change, not a hardware investment."
+            },
+            {
+                "question": "How do we set up our phone system to project a professional image to clients?",
+                "answer": "First impressions in business often happen over the phone. Anova configures professional auto-attendant systems that greet callers with a branded message, direct them to the right department efficiently, and ensure no call goes unanswered during business hours. We set up call queues so clients are informed of their position if all agents are busy, rather than hearing an endless ring. For key accounts, we can integrate your phone system with your CRM so that when a regular client calls, your team sees their name and account history before picking up. Small details like these make a significant difference to how professional your business feels from the outside."
+            },
+            {
+                "question": "Our team works across multiple offices. Can one phone system cover all locations?",
+                "answer": "Yes — this is one of the strongest advantages of a cloud-based phone system. Because the system lives in the cloud rather than on a physical server in one office, every location connects to the same platform. A call to your main number can ring simultaneously at your Nairobi headquarters, your Mombasa branch, and a remote employee's mobile. Internal calls between locations are free. You manage everything — call routing, user settings, reporting — from a single web dashboard. For businesses with multiple sites, this not only simplifies communication management but significantly reduces inter-branch call costs."
+            }
+        ],
+        "specializedInsights": [
+            {
+                "title": "Why East African Businesses Are Moving to Cloud PBX",
+                "time": "5 MIN READ",
+                "category": "COMMUNICATIONS"
+            },
+            {
+                "title": "Getting Boardroom Video Conferencing Right",
+                "time": "4 MIN READ",
+                "category": "PRODUCTIVITY"
+            }
+        ]
+    },
+    {
+        "id": "cctv-monitoring",
+        "title": "CCTV & Monitoring",
+        "category": "Security",
+        "description": "Intelligent, always-on surveillance systems that protect your people, premises, and assets — and keep recording even when the power goes out.",
+        "overview": "Security cameras have evolved far beyond passive recording. Anova designs and manages CCTV and monitoring systems that actively protect your business — using AI-driven analytics to detect and alert on unusual activity in real time, with footage stored securely and accessible from your phone wherever you are. We engineer every installation to keep running through power cuts and internet outages.",
+        "icon": "videocam",
+        "features": [
+            "HD and 4K camera installations for indoor and outdoor",
+            "AI-powered motion and shape detection with instant alerts",
+            "Remote live viewing and playback from any device",
+            "UPS-backed recording that continues through power cuts"
+        ],
+        "deepDive": [
+            {
+                "title": "A System That Watches, Learns, and Alerts — Not Just Records",
+                "content": "Traditional CCTV is reactive. It records everything, detects nothing, and the footage is only reviewed after an incident has already occurred. Anova's intelligent monitoring systems go further. Using AI-powered video analytics, our cameras can distinguish between a person and a passing vehicle, detect movement in areas where there should be none, and send an alert to your phone within seconds of an anomaly being detected. The result is a security system that actively protects your premises, not one that merely documents what happened after the fact.",
+                "subpoints": [
+                    "AI shape and motion detection calibrated to your environment",
+                    "Instant push notifications to authorised smartphones on detection",
+                    "Configurable alert zones and time-based rules for different areas",
+                    "False alert filtering to reduce noise from environmental movement"
+                ]
+            },
+            {
+                "title": "Engineered to Keep Recording Through Power Cuts and Outages",
+                "content": "A CCTV system that goes dark during a power cut is worse than no system at all — because the people who intend harm often know when the lights go out. Anova designs every installation with intelligent UPS backup systems that keep cameras and recording hardware operational for hours during a complete power outage. We also use hybrid storage that records simultaneously to local devices and a secure cloud vault, so even if on-site hardware is tampered with, your footage remains safe and retrievable.",
+                "subpoints": [
+                    "Professional UPS systems protecting all cameras and recording equipment",
+                    "Continued recording during power cuts with generator auto-handover",
+                    "Hybrid local and cloud storage for maximum footage resilience",
+                    "Heartbeat monitoring so Anova is alerted instantly if any camera goes offline"
+                ]
+            },
+            {
+                "title": "High-Definition Evidence When You Need It Most",
+                "content": "When an incident occurs — a theft, a dispute, or a safety event — the quality and availability of your footage determines whether it can be used for HR action, insurance claims, or law enforcement. Anova's systems record in high definition around the clock, with retention periods configured to your specific requirements. We can retrieve specific events rapidly, providing timestamped, chain-of-custody-documented footage that meets evidentiary standards. Our audit logs record every instance of who accessed the footage and when.",
+                "subpoints": [
+                    "HD and 4K recording with configurable retention periods",
+                    "Rapid event retrieval for HR, insurance, or law enforcement use",
+                    "Timestamped, tamper-evident audit logs for all footage access",
+                    "Footage stored with bank-grade encryption at rest and in transit"
+                ]
+            },
+            {
+                "title": "Responsible Surveillance — Security Without Compromising Privacy",
+                "content": "Effective security and employee privacy are not in conflict when a system is designed ethically. Anova focuses surveillance on entry points, perimeter areas, server rooms, and asset-rich zones — not on employee workspaces or private areas. We implement privacy masking to black out sensitive views from recording, and we configure tiered access so only authorised personnel can view specific camera feeds. Every deployment is designed to comply with Kenya's Data Protection Act, giving you full legal coverage for your CCTV operation.",
+                "subpoints": [
+                    "Coverage focused on entrances, exits, perimeters, and high-value zones",
+                    "Privacy masking for sensitive areas — configured and locked by Anova",
+                    "Tiered access ensuring only authorised users can view specific feeds",
+                    "Deployment guidance aligned with Kenya's Data Protection Act requirements"
+                ]
+            }
+        ],
+        "capabilities": [
+            {
+                "title": "Intelligent Video Analytics",
+                "description": "AI-powered detection of unauthorised access, loitering, and unusual behaviour — with real-time alerts to your phone.",
+                "icon": "psychology",
+                "image": "https://images.unsplash.com/photo-1557597774-9d2739f85a7c?q=80&w=2036&auto=format&fit=crop"
+            },
+            {
+                "title": "Multi-Site Remote Monitoring",
+                "description": "Centralised management and live viewing of cameras across multiple premises from a single secure platform.",
+                "icon": "visibility",
+                "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop"
+            }
+        ],
+        "stats": [
+            {
+                "label": "FRAME RETENTION",
+                "value": "100%",
+                "percentage": 100
+            },
+            {
+                "label": "AI DETECTION",
+                "value": "99.8%",
+                "percentage": 99.8
+            },
+            {
+                "label": "SIGNAL STABILITY",
+                "value": "99.9%",
+                "percentage": 99.9
+            }
+        ],
+        "subservices": [
+            {
+                "title": "Thermal & Access-Point Cameras",
+                "description": "Specialised cameras for high-security zones, detecting body heat and unauthorised entry in low-visibility conditions."
+            },
+            {
+                "title": "AI Remote Guarding",
+                "description": "Anova's virtual guard service — continuous AI-monitored perimeter surveillance with human review on alert."
+            },
+            {
+                "title": "Rapid Video Retrieval",
+                "description": "Fast extraction of specific footage events for HR, insurance, or law enforcement, with full documentation provided."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How does an AI-powered camera system differ from what we might install ourselves?",
+                "answer": "Consumer-grade cameras record passively and require someone to sit and watch footage to detect anything. The AI analytics in Anova's systems understand what they are looking at — they can tell the difference between a person and a dog, detect when someone lingers in a restricted area, and alert you in real time on your phone. The cameras are also calibrated to your specific environment to minimise false alerts from things like swaying trees or passing traffic. Beyond the technology, Anova monitors the health of your system continuously, so you know your cameras are actually recording and will alert on something when it matters — not after the fact when you check the footage."
+            },
+            {
+                "question": "We have multiple premises. Can one system cover all of them?",
+                "answer": "Yes. Anova manages multi-site CCTV deployments through a centralised cloud platform, meaning you can view live feeds and recorded footage from all your locations from a single dashboard — on your computer or smartphone. Each site's cameras, recordings, and alert configurations are managed independently but accessed through one interface. You can set different rules for each location depending on what's being protected. For businesses with branches across Nairobi or across East Africa, this centralised approach provides visibility and control that a site-by-site system simply cannot offer."
+            },
+            {
+                "question": "How long is footage kept, and who can access it?",
+                "answer": "Retention periods are configured according to your specific requirements — typically between 30 and 90 days for general surveillance, with longer retention for high-security zones. Access is strictly controlled through a tiered permission system, meaning individual managers can only see the cameras relevant to their area of responsibility. Every single access event — who viewed which camera, when, and for how long — is logged in a tamper-evident audit trail. This ensures that your CCTV system cannot be misused by anyone within your organisation, and provides documented accountability if a viewing event is ever questioned."
+            },
+            {
+                "question": "What happens if a camera or recording device is physically tampered with?",
+                "answer": "Anova's systems are designed with tamper resistance as a priority. We use vandal-resistant housings for external and vulnerable cameras, and our hybrid storage approach means footage is recorded both locally and to a secure cloud vault simultaneously. If a local recording device is stolen or damaged, the cloud copy remains intact and retrievable. Our heartbeat monitoring system detects if any camera goes offline — for any reason, including tampering — and alerts our operations team immediately. Physical tamper detection on camera housings can also be configured to trigger an immediate alert on your phone."
+            }
+        ],
+        "specializedInsights": [
+            {
+                "title": "CCTV and Kenya's Data Protection Act: What You Need to Know",
+                "time": "7 MIN READ",
+                "category": "LEGAL"
+            },
+            {
+                "title": "AI Video Analytics: Moving from Recording to Real Protection",
+                "time": "6 MIN READ",
+                "category": "SECURITY"
+            }
+        ]
+    },
+    {
+        "id": "access-control",
+        "title": "Access Control & Time Attendance",
+        "category": "Security",
+        "description": "Control who enters your building, secure your most sensitive areas, and automate attendance tracking — all from a single, centrally managed system.",
+        "overview": "Physical security begins at the door. Anova designs and installs access control systems that give your business precise control over who can enter which areas and when, using biometric readers, smart cards, and mobile credentials. The same system tracks attendance automatically, eliminating manual timesheets and giving your HR and payroll teams accurate, audit-ready data.",
+        "icon": "door_front",
+        "features": [
+            "Biometric fingerprint and facial recognition access",
+            "Smart card and mobile credential entry options",
+            "Automated time and attendance with HR system integration",
+            "Centralised management for single and multi-site deployments"
+        ],
+        "deepDive": [
+            {
+                "title": "Replacing Keys and Sign-In Books With a System That Actually Works",
+                "content": "Physical keys present a fundamental problem: they can be copied, lost, or handed to an unauthorised person with no record of it happening. A manual sign-in book is even less reliable — it's slow, inconsiderate of context, and easy to falsify. Anova's access control systems give you complete, auditable control over who enters your building and when. Access can be granted, modified, or revoked instantly from a central dashboard. Every entry and exit is logged with a timestamp, creating a clear record that is useful for security reviews, HR investigations, and emergency evacuations.",
+                "subpoints": [
+                    "Instant revocation of access for departed or suspended staff",
+                    "Every entry and exit logged with tamper-evident timestamps",
+                    "No key management overhead — no locksmith calls, no lock changes",
+                    "Emergency lockdown capability from any authorised device"
+                ]
+            },
+            {
+                "title": "Granular Control for Every Area of Your Premises",
+                "content": "Not every employee should have access to every part of your office. Your server room, finance department, executive floor, and warehouse all carry different risk profiles and require different access permissions. Anova configures your system with zone-based access control, ensuring that staff can only enter the areas relevant to their role. We also implement anti-passback rules — preventing someone from using a credential that was already used to enter an area, which stops the common tactic of badge-sharing or tailgating.",
+                "subpoints": [
+                    "Role-based access zones configured per department or individual",
+                    "Anti-passback and tailgating detection for high-security areas",
+                    "Time-of-day access rules — e.g. no access to server rooms after hours",
+                    "Visitor management with temporary credentials and automatic expiry"
+                ]
+            },
+            {
+                "title": "Accurate Time and Attendance — Automatically",
+                "content": "Manual timesheets are a source of errors, disputes, and in some cases, intentional manipulation. When attendance is recorded by a biometric reader, the data is objective and unforgeable — a fingerprint cannot be loaned to a colleague. Anova integrates your access control system directly with your HR and payroll platforms, so attendance data flows automatically without any manual data entry. The result is a payroll process that is faster, more accurate, and requires significantly less HR administration time.",
+                "subpoints": [
+                    "Biometric time-stamping that eliminates buddy-punching",
+                    "Direct integration with HR and payroll systems",
+                    "Automated reports on late arrivals, early departures, and absenteeism",
+                    "Overtime and shift management tracked without additional administration"
+                ]
+            },
+            {
+                "title": "Multi-Site Synchronisation and Fail-Safe Operation",
+                "content": "For businesses with multiple offices or branches, Anova's cloud-linked access control platform keeps all sites synchronised in real time. A staff member registered at your headquarters can be granted access to your Mombasa branch in seconds, without any on-site configuration work. And because each door controller stores authorised users locally, your access points continue to function correctly even if the internet goes down — syncing back to the central system automatically when connectivity is restored.",
+                "subpoints": [
+                    "Cloud-based management covering all sites from one dashboard",
+                    "Real-time credential synchronisation across all locations",
+                    "Local door intelligence — access works even without internet",
+                    "Battery backup ensuring doors operate during power cuts"
+                ]
+            }
+        ],
+        "capabilities": [
+            {
+                "title": "Biometric Authentication",
+                "description": "Enterprise-grade fingerprint and facial recognition ensuring only verified individuals can access your premises and secured zones.",
+                "icon": "fingerprint",
+                "image": "https://images.unsplash.com/photo-1510511459019-5dee2c1a7eaa?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "title": "Workforce Analytics",
+                "description": "Data-driven insights into attendance patterns, punctuality, and movement — informing HR decisions and operational planning.",
+                "icon": "groups",
+                "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2084&auto=format&fit=crop"
+            }
+        ],
+        "stats": [
+            {
+                "label": "ACCESS LATENCY",
+                "value": "< 0.5S",
+                "percentage": 100
+            },
+            {
+                "label": "IDENTIFICATION RATE",
+                "value": "99.9%",
+                "percentage": 99.9
+            },
+            {
+                "label": "SYSTEM INTEGRATION",
+                "value": "FULL API",
+                "percentage": 100
+            }
+        ],
+        "subservices": [
+            {
+                "title": "Biometric Reader Installation & Service",
+                "description": "Professional installation, configuration, and ongoing maintenance of fingerprint and facial recognition scanners."
+            },
+            {
+                "title": "Attendance Reporting & Payroll Export",
+                "description": "Automated monthly attendance reports formatted for direct input into your HR and payroll systems."
+            },
+            {
+                "title": "Emergency Evacuation Tracking",
+                "description": "Real-time occupancy records that tell you exactly who is in the building during a fire drill or safety emergency."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "We have staff who work shifts across different locations. Can one system handle this?",
+                "answer": "Yes. Anova's cloud-based access control platform is specifically designed for multi-site and shift-based environments. You can assign each staff member access to specific sites, specific zones within those sites, and specific time windows — all from a single management interface. Shift schedules can be configured so that an employee's access to certain areas is automatically enabled and disabled based on their roster. Any changes made at head office sync to all branch locations in real time, so there's no need to physically configure each site when a staff member changes roles or locations."
+            },
+            {
+                "question": "How does the system handle biometric data — is it stored securely and legally?",
+                "answer": "Biometric data is among the most sensitive personal data a business can hold, and it is subject to Kenya's Data Protection Act. Anova's systems store biometric templates — not raw images — using encryption both at rest and in transit. Staff consent is obtained and documented as part of the enrolment process. Access to the stored data is strictly limited to authorised administrators, and the data is never shared with third parties. We advise every client on their obligations under local data protection law and ensure the system is configured to meet those requirements, so your business has full legal coverage for its biometric access system."
+            },
+            {
+                "question": "What if the power goes out — will our staff be locked in or out?",
+                "answer": "Every Anova access control installation includes battery backup systems for all door controllers and readers, ensuring that access continues to function normally for several hours during a power cut. Door locks can be configured as 'fail-safe' (defaults to unlocked during power loss) or 'fail-secure' (stays locked), depending on the security requirements of each specific door. For emergency exits and fire doors, fail-safe configuration is always applied to ensure safe evacuation. We also install manual override mechanisms as a final backstop, ensuring your staff are never stranded regardless of what happens to the power or the network."
+            },
+            {
+                "question": "How quickly can we set up or remove access for an employee?",
+                "answer": "Changes take effect immediately. When a new employee joins, you add them to the system from any computer or smartphone and their access is active at every configured site within seconds. When an employee leaves, a single click revokes their access across all locations simultaneously — their credential no longer works anywhere on your estate from that moment. There's no waiting for locks to be changed, no retrieving physical keys, and no risk of an oversight leaving a former employee with active access. This speed and certainty is particularly valuable in high-turnover environments or situations where access needs to be suspended urgently."
+            }
+        ],
+        "specializedInsights": [
+            {
+                "title": "Biometric Data and Kenya's Data Protection Act: A Practical Guide",
+                "time": "5 MIN READ",
+                "category": "LEGAL"
+            },
+            {
+                "title": "The Business Case for Automated Time and Attendance",
+                "time": "4 MIN READ",
+                "category": "HR TECH"
+            }
+        ]
+    },
+    {
+        "id": "ict-connectivity",
+        "title": "ICT Connectivity",
+        "category": "Connectivity",
+        "description": "Dedicated, enterprise-grade internet and private data connections that keep your business online, fast, and secure — with backup links that kick in before your team notices an outage.",
+        "overview": "Internet connectivity is the single most critical infrastructure dependency for most modern businesses. A slow or unreliable connection costs you in lost productivity, failed video calls, and damaged client relationships. Anova provides dedicated connectivity solutions — from carrier-grade fiber to wireless point-to-point links and satellite — engineered with redundancy and managed proactively so your business stays online.",
+        "icon": "settings_input_antenna",
+        "features": [
+            "Dedicated 1:1 fiber internet with guaranteed bandwidth",
+            "Multi-link redundancy for automatic failover",
+            "Secure private data connections between offices",
+            "Satellite connectivity for remote or disaster recovery use"
+        ],
+        "deepDive": [
+            {
+                "title": "Dedicated Bandwidth — Because Shared Internet Isn't Good Enough for Business",
+                "content": "Consumer and entry-level business internet products share bandwidth across many customers. When your neighbours go online, your speed drops. For a business that depends on cloud platforms, video conferencing, and real-time data access, this variability is unacceptable. Anova provides dedicated internet connections with a 1:1 contention ratio — meaning the bandwidth you pay for is yours, guaranteed, 24 hours a day. We back this with a formal SLA and provide live dashboards so you can verify your performance at any time.",
+                "subpoints": [
+                    "1:1 dedicated bandwidth — no sharing, no peak-hour slowdowns",
+                    "Symmetrical upload and download speeds for cloud and video workloads",
+                    "Formal SLA with uptime guarantees and performance commitments",
+                    "Live speed and latency dashboards accessible to your team"
+                ]
+            },
+            {
+                "title": "Redundant Connectivity — Staying Online When a Single Provider Fails",
+                "content": "No single internet connection is immune to failure — fiber cables get cut during road works, wireless links fail during heavy weather, and ISPs experience outages entirely outside their control. Anova designs multi-path connectivity solutions that combine two or more independent links — from different providers and different technologies — so that when one path fails, your traffic automatically routes to the backup. The switchover happens in milliseconds. Your team doesn't see a disruption; they just keep working.",
+                "subpoints": [
+                    "Primary and backup links from independent providers and technologies",
+                    "Automatic failover in under 300 milliseconds",
+                    "SD-WAN management layer for intelligent traffic distribution",
+                    "ISP relationship management and fault escalation handled by Anova"
+                ]
+            },
+            {
+                "title": "Private Data Connections Between Your Offices",
+                "content": "For businesses with multiple branches, transmitting sensitive data over the public internet — even encrypted — introduces risk and variability. Anova provides private leased lines and MPLS connectivity that create dedicated, isolated data paths between your offices. These connections are not shared with the public internet, providing a level of security and performance consistency that a standard VPN over broadband simply cannot match. For financial institutions, healthcare providers, and any business handling regulated data, a private connection is the appropriate standard.",
+                "subpoints": [
+                    "Private leased lines and MPLS for secure inter-office connectivity",
+                    "Consistent, guaranteed performance regardless of internet conditions",
+                    "Traffic isolation from the public internet for sensitive data",
+                    "Integration with your existing networking and security infrastructure"
+                ]
+            },
+            {
+                "title": "Satellite and Wireless — Connectivity Where Fiber Hasn't Reached",
+                "content": "Not every business location has access to quality fiber infrastructure. Anova provides wireless point-to-point links for connecting offices across short distances without cable runs, and VSAT satellite connectivity for remote sites where no terrestrial option is viable. We also use satellite as a last-resort backup link in our redundancy designs, ensuring that even in the event of a catastrophic regional fiber failure, your most critical business functions can continue operating.",
+                "subpoints": [
+                    "High-frequency wireless PTP links for inter-building connectivity",
+                    "VSAT satellite solutions for remote sites or disaster recovery",
+                    "Satellite configured as the final-resort failover in redundancy stacks",
+                    "All connectivity options managed through the same Anova platform"
+                ]
+            }
+        ],
+        "capabilities": [
+            {
+                "title": "Carrier-Grade Fiber Access",
+                "description": "Dedicated fiber optic connections with guaranteed 1:1 bandwidth and redundant routing for mission-critical business operations.",
+                "icon": "settings_input_fiber",
+                "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "title": "VSAT & Satellite Connectivity",
+                "description": "Satellite-based internet access for remote locations and as an ultimate failover option in multi-link redundancy designs.",
+                "icon": "satellite_alt",
+                "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
+            }
+        ],
+        "stats": [
+            {
+                "label": "PEERING CONGESTION",
+                "value": "< 1%",
+                "percentage": 99
+            },
+            {
+                "label": "LINK FAILOVER",
+                "value": "< 300MS",
+                "percentage": 97
+            },
+            {
+                "label": "THROUGHPUT RATIO",
+                "value": "1:1 100%",
+                "percentage": 100
+            }
+        ],
+        "subservices": [
+            {
+                "title": "Dedicated Internet Access",
+                "description": "1:1 contention ratio fiber connections with guaranteed bandwidth and a formal SLA for enterprise-grade reliability."
+            },
+            {
+                "title": "Wireless Point-to-Point Links",
+                "description": "High-frequency radio links connecting buildings or campuses where fiber installation is not practical."
+            },
+            {
+                "title": "SD-WAN Overlay Management",
+                "description": "Intelligent software-defined layer bonding multiple connections for automatic failover and traffic prioritisation."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between dedicated internet and the standard business broadband we use now?",
+                "answer": "Standard business broadband is a contended service — you share the available capacity with other customers on the same network. During busy periods, that shared pool fills up and everyone's speed drops. Dedicated internet reserves a fixed amount of bandwidth exclusively for your business, so you receive the same performance at 9am on a Monday as you do at 3am on a Sunday. It's also symmetrical, meaning your upload speed matches your download speed — which is critical for video conferencing, cloud uploads, and hosted application performance. If your business depends on cloud tools or handles large data volumes, the performance difference is immediately noticeable."
+            },
+            {
+                "question": "We've had our ISP go down before and lost a full day of work. How does multi-link redundancy prevent that?",
+                "answer": "Multi-link redundancy works by establishing two completely independent internet connections from different providers, often using different physical technologies — for example, fiber as primary and wireless or 5G as backup. Anova manages these connections through an SD-WAN platform that monitors both links continuously. The moment the primary link shows degradation or failure, the platform reroutes your traffic to the backup automatically — in under 300 milliseconds. Your staff don't need to do anything; the transition happens in the background faster than a human can notice. We also manage the relationship with your primary ISP to escalate fault resolution, so the primary link is restored as quickly as possible."
+            },
+            {
+                "question": "How do you ensure our most important applications get priority on our connection?",
+                "answer": "We configure Quality of Service (QoS) policies on your network that classify and prioritise different types of traffic. Video calls and VoIP are given the highest priority because they are the most sensitive to delay. Cloud business applications come next. Background traffic like software updates and file sync runs on whatever capacity remains. This prioritisation happens automatically and continuously, meaning that even when your office internet is fully loaded, your team's Zoom calls and CRM access remain smooth. We regularly review and adjust these policies as your application mix changes."
+            },
+            {
+                "question": "We have a remote site where fiber is not available. What options do you provide?",
+                "answer": "For locations without fiber coverage, Anova has several options depending on the distance, required bandwidth, and budget. For sites within line-of-sight of another building or tower, wireless point-to-point links provide high-bandwidth, low-latency connectivity that performs comparably to fiber for most business applications. For more remote sites where wireless isn't feasible, VSAT satellite connectivity provides reliable internet access regardless of geographic location. We assess each site individually and recommend the most cost-effective solution for the specific requirements, and we manage whichever technology is deployed through the same centralised platform as your other connectivity."
+            }
+        ],
+        "specializedInsights": [
+            {
+                "title": "Designing for Connectivity Resilience in East Africa",
+                "time": "6 MIN READ",
+                "category": "INFRASTRUCTURE"
+            },
+            {
+                "title": "Dedicated vs Shared Internet: A Business Cost Analysis",
+                "time": "5 MIN READ",
+                "category": "CONNECTIVITY"
+            }
+        ]
+    }
+]

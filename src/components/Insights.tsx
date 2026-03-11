@@ -5,9 +5,9 @@ const Insights: React.FC = () => {
         <section className="w-full py-16 bg-white">
             <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
                 <div className="flex justify-between items-center mb-8">
-                    <h2 className="text-4xl font-bold tracking-tight text-slate-900">Insights</h2>
+                    <h2 className="text-4xl font-bold tracking-tight text-slate-900">Guides & Updates</h2>
                     <a className="text-sm font-bold uppercase tracking-widest text-primary hover:text-black flex items-center gap-1" href="#">
-                        View More Insights <span className="material-symbols-outlined text-base">add_circle</span>
+                        Read More <span className="material-symbols-outlined text-base">add_circle</span>
                     </a>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 h-auto lg:h-[500px]">

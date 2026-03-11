@@ -60,10 +60,10 @@ const Footer: React.FC = () => {
                             <div>
                                 <h4 className="font-bold mb-4 text-gray-200">Services</h4>
                                 <ul className="space-y-2 text-gray-500">
-                                    <li><a className="hover:text-white transition-colors" href="#">ICT Outsourcing</a></li>
-                                    <li><a className="hover:text-white transition-colors" href="#">Cloud Solutions</a></li>
-                                    <li><a className="hover:text-white transition-colors" href="#">Cybersecurity</a></li>
-                                    <li><a className="hover:text-white transition-colors" href="#">Consulting</a></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/services/ict-outsourcing">ICT Outsourcing</Link></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/services/ict-support">Technical Support</Link></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/services/networking-solutions">Infrastructure</Link></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/services/hardware-software-solutions">Technology Supply</Link></li>
                                 </ul>
                             </div>
                             <div>
@@ -117,7 +117,7 @@ const Footer: React.FC = () => {
                         </div>
                     </div>
                 </div>
-            </footer>
+            </footer >
         </>
     );
 };

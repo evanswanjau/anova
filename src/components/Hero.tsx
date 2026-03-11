@@ -26,28 +26,28 @@ const Hero: React.FC = () => {
 
     const slides = [
         {
-            title: "Your ICT Partner",
-            highlight: "of Choice",
-            subtitle: "Redefining the standard for professional ICT services and technical support across East Africa's most critical sectors.",
+            title: "Your Reliable",
+            highlight: "Technology Partner",
+            subtitle: "We take the stress out of technology, providing professional support and expert advice across East Africa.",
             image: slider1,
-            cta: "View Our Services",
-            vision: "Professional Services"
+            cta: "How We Can Help",
+            vision: "Expert Support"
         },
         {
-            title: "Enterprise Hardware",
-            highlight: "Sourcing & Supply",
-            subtitle: "State-of-the-art hardware procurement and supply chain solutions tailored for seamless enterprise scalability and performance.",
+            title: "The Best Equipment",
+            highlight: "for Your Business",
+            subtitle: "Get the right laptops, servers, and office equipment without the hassle. We source, set up, and support it all.",
             image: slider2,
-            cta: "Explore Hardware",
-            vision: "Hardware Supply"
+            cta: "Explore Solutions",
+            vision: "Quality Hardware"
         },
         {
-            title: "Unified Networking",
-            highlight: "Installation & Support",
-            subtitle: "Professional network installation, end-to-end ICT implementation, and expert technical support for resilient business connectivity.",
+            title: "Fast, Secure",
+            highlight: "Office Connections",
+            subtitle: "Internet and office networks that just work. We handle the wiring, setup, and security so your team stays connected.",
             image: slider3,
-            cta: "View Solutions",
-            vision: "Network Setup"
+            cta: "View Our Work",
+            vision: "Steady Connections"
         }
     ];
 

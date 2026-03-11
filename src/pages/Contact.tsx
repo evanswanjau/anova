@@ -24,12 +24,12 @@ const Contact: React.FC = () => {
             answer: "Anova specializes in enterprise-scale infrastructure for Banking & Finance, Telecommunications, Government, Healthcare, and Logistics across East Africa."
         },
         {
-            question: "How quickly can you deploy a technical team for emergency support?",
-            answer: "For our contracted clients, we guarantee an on-site presence within 4 to 8 hours depending on the service level agreement and physical location."
+            question: "How quickly can you help during an emergency?",
+            answer: "For our regular clients, we guarantee an expert will be onsite within 4 to 8 hours to get your business back up and running."
         },
         {
-            question: "Do you offer custom hardware configurations?",
-            answer: "Yes. Our procurement and engineering teams work together to provide bespoke server and networking hardware tailored to your specific performance and redundancy requirements."
+            question: "Do you provide custom equipment and setups?",
+            answer: "Yes. Our team provides custom-built computers, servers, and office networks designed specifically for your business needs."
         },
         {
             question: "Where are your main service hubs located?",
@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
                             <span className="text-primary font-black uppercase tracking-[0.4em] text-xs">Get In Touch</span>
                         </div>
                         <h1 className="text-5xl md:text-8xl font-black text-white tracking-tighter leading-tight md:leading-none mb-8">
-                            Connect with the<br className="hidden md:block" />Best in ICT
+                            Connect with Your<br className="hidden md:block" />Technology Experts
                         </h1>
                     </div>
                 </div>
@@ -97,12 +97,12 @@ const Contact: React.FC = () => {
                                 <div className="space-y-2">
                                     <label className="text-[10px] font-black uppercase tracking-widest text-slate-500">Subject</label>
                                     <select className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm appearance-none">
-                                        <option>Interested in our Services</option>
-                                        <option>Request a Callback</option>
-                                        <option>Strategic Partnership</option>
+                                        <option>General Help</option>
+                                        <option>Request a Call Back</option>
+                                        <option>Business Partnership</option>
                                         <option>Technical Support</option>
-                                        <option>Project Inquiry</option>
-                                        <option>General Inquiry</option>
+                                        <option>New Project Inquiry</option>
+                                        <option>Other</option>
                                     </select>
                                 </div>
                                 <div className="space-y-2">
@@ -188,7 +188,7 @@ const Contact: React.FC = () => {
                     <div className="mb-16 border-b border-slate-200 pb-8">
                         <span className="text-primary font-black uppercase tracking-[0.4em] text-xs block mb-4">Knowledge Base</span>
                         <h2 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none">
-                            Frequently Asked<br />Technical Questions
+                            Common Questions<br />About Our Services
                         </h2>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">

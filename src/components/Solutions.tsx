@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import outsourcing from '../assets/images/outsourcing.jpg';
@@ -91,14 +92,14 @@ const Solutions: React.FC = () => {
                     <div className="max-w-3xl">
                         <div className="flex items-center gap-4 mb-4">
                             <span className="h-[2px] w-12 bg-primary"></span>
-                            <span className="text-primary font-black uppercase tracking-[0.3em] text-xs">Products & Services</span>
+                            <span className="text-primary font-black uppercase tracking-[0.3em] text-xs">Our Solutions</span>
                         </div>
                         <h2 className="text-5xl md:text-7xl font-black text-slate-900 leading-[0.9] tracking-tighter mb-6">
-                            Technology Solutions<br />
-                            <span className="text-transparent border-text" style={{ WebkitTextStroke: '1px #000000a0' }}>Risk-Free Options</span>
+                            Smart Technology<br />
+                            <span className="text-transparent border-text" style={{ WebkitTextStroke: '1px #000000a0' }}>For Your Business</span>
                         </h2>
                         <p className="text-slate-500 text-lg max-w-xl font-medium leading-relaxed">
-                            Implementing and integrating proven, state-of-the-art technologies to achieve your unique business objectives.
+                            We provide and manage the technology you need to run your business efficiently, safely, and without the headaches.
                         </p>
                     </div>
 
@@ -170,14 +171,14 @@ const Solutions: React.FC = () => {
                                                 <p className="text-white/70 text-sm mb-6 leading-relaxed">
                                                     Providing full solutions for your individual needs to advance your business’s technology environment.
                                                 </p>
-                                                <div className="flex items-center justify-between group/btn">
+                                                <Link to={`/services/${item.id}`} className="flex items-center justify-between group/btn w-full">
                                                     <span className="text-white text-xs font-black uppercase tracking-widest border-b border-primary/40 pb-1 group-hover/btn:border-primary group-hover/btn:text-primary transition-all">
                                                         Learn more
                                                     </span>
                                                     <div className="size-10 bg-white/10 group-hover/btn:bg-primary flex items-center justify-center transition-colors">
                                                         <span className="material-symbols-outlined text-white text-sm">north_east</span>
                                                     </div>
-                                                </div>
+                                                </Link>
                                             </div>
 
                                             {/* Accent Line */}
