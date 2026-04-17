@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                         className="w-full h-full object-cover"
                         src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_gH5j_1hTREJq8NyHAGei8SGc9yPlIK9AjgKYcUqnJJjQGk6NZv98F5xPS8yS4WCF9y3jaGlsXxClLuCjXzU71d1g6s9He0dujEW2EUnvjm71wR7iCN1VDtV4Ida9rM7MqetsHHd-KoOWMIIvD5MF98fMqvh8wfwHkmmN9Tq75f7ljgSNk6LzMtSiSfM26rGkmz9_GU9Zp6dp0oytCJ507zD5UfkO-7zjmgSEq6WhczBqgI5NPrX7m_MXRGYTZgNW63LkURbjUhg"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-nasa-black via-nasa-black/70 to-transparent"></div>
                 </div>
                 <div className="relative z-10 max-w-[1440px] mx-auto px-6 lg:px-12 w-full">
                     <div className="max-w-2xl">
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             </section>
 
             {/* Footer Section */}
-            <footer className="bg-black text-white pt-16 pb-8 border-t border-gray-800">
+            <footer className="bg-nasa-black text-white pt-16 pb-8 border-t border-gray-800">
                 <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
                     <div className="flex flex-col md:flex-row justify-between items-start mb-12">
                         <div className="mb-8 md:mb-0">
@@ -52,9 +52,9 @@ const Footer: React.FC = () => {
                             <p className="text-gray-400 text-sm max-w-xs mb-6">
                                 Empowering businesses through robust ICT infrastructure and innovative managed services.
                             </p>
-                            <a className="text-primary font-bold text-sm flex items-center hover:underline" href="#">
+                            <Link className="text-primary font-bold text-sm flex items-center hover:underline" to="/contact">
                                 Contact Us <span className="material-symbols-outlined ml-1 text-xs rounded-full bg-primary text-white p-0.5">arrow_forward</span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16 text-sm">
                             <div>
@@ -63,25 +63,24 @@ const Footer: React.FC = () => {
                                     <li><Link className="hover:text-white transition-colors" to="/services/ict-outsourcing">ICT Outsourcing</Link></li>
                                     <li><Link className="hover:text-white transition-colors" to="/services/ict-support">Technical Support</Link></li>
                                     <li><Link className="hover:text-white transition-colors" to="/services/networking-solutions">Infrastructure</Link></li>
-                                    <li><Link className="hover:text-white transition-colors" to="/services/hardware-software-solutions">Technology Supply</Link></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/services">View All Services</Link></li>
                                 </ul>
                             </div>
                             <div>
                                 <h4 className="font-bold mb-4 text-gray-200">Company</h4>
                                 <ul className="space-y-2 text-gray-500">
-                                    <li><a className="hover:text-white transition-colors" href="#">About Anova</a></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/about">About Anova</Link></li>
                                     <li><Link className="hover:text-white transition-colors" to="/careers">Careers</Link></li>
-                                    <li><a className="hover:text-white transition-colors" href="#">Partners</a></li>
-                                    <li><a className="hover:text-white transition-colors" href="#">Newsroom</a></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/partners">Partners</Link></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/news">Newsroom</Link></li>
                                 </ul>
                             </div>
                             <div>
-                                <h4 className="font-bold mb-4 text-gray-200">Resources</h4>
+                                <h4 className="font-bold mb-4 text-gray-200">Explore</h4>
                                 <ul className="space-y-2 text-gray-500">
-                                    <li><a className="hover:text-white transition-colors" href="#">Blog</a></li>
-                                    <li><a className="hover:text-white transition-colors" href="#">Case Studies</a></li>
-                                    <li><a className="hover:text-white transition-colors" href="#">Whitepapers</a></li>
-                                    <li><a className="hover:text-white transition-colors" href="#">Support Portal</a></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/industries">Industries</Link></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/contact">Contact Us</Link></li>
+                                    <li><Link className="hover:text-white transition-colors" to="/">Home</Link></li>
                                 </ul>
                             </div>
                             <div>
