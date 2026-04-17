@@ -129,15 +129,17 @@ const JobDetails: React.FC = () => {
                         {/* Sidebar Application */}
                         <div className="lg:col-span-1">
                             <div className="sticky top-32 p-10 bg-gray-50 border border-gray-100">
-                                <h3 className="text-xl font-bold text-slate-900 mb-6">Interested in this role?</h3>
+                                <h3 className="text-xl font-bold text-slate-900 mb-6">How to Apply</h3>
                                 <p className="text-slate-500 text-sm mb-8 leading-relaxed">
-                                    Send your resume and a brief cover letter detailing your relevant experience to our hiring team.
+                                    Send your <b>CV and cover letter</b> to <a href="mailto:hr@anova.co.ke" className="text-primary font-bold hover:underline">hr@anova.co.ke</a>.
+                                    <br /><br />
+                                    Please ensure the job title,{" "}<b>{job.title}</b> is the subject of your email.
                                 </p>
                                 <a
-                                    href={`mailto:hr@anova.co.ke?subject=Application: ${job.title}`}
-                                    className="w-full block bg-slate-900 text-white font-black py-4 uppercase tracking-[0.2em] text-sm text-center hover:bg-primary transition-all shadow-lg active:scale-95"
+                                    href={`mailto:hr@anova.co.ke?subject=${job.title}`}
+                                    className="w-full block bg-nasa-black text-white font-black py-4 uppercase tracking-[0.2em] text-sm text-center hover:bg-primary transition-all shadow-lg active:scale-95"
                                 >
-                                    Apply Now
+                                    Apply via Email
                                 </a>
                                 <div className="mt-8 pt-8 border-t border-gray-200">
                                     <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-4">Share this role</p>
