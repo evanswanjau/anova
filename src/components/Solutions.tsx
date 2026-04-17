@@ -108,7 +108,7 @@ const Solutions: React.FC = () => {
                         <div className="flex gap-2">
                             <button
                                 onClick={() => emblaApi?.scrollPrev()}
-                                className="group size-14 border border-slate-200 flex items-center justify-center hover:bg-black transition-all duration-300 active:scale-95"
+                                className="group size-14 border border-slate-200 flex items-center justify-center hover:bg-nasa-black transition-all duration-300 active:scale-95"
                             >
                                 <span className="material-symbols-outlined text-slate-900 group-hover:text-white transition-colors">west</span>
                             </button>
@@ -154,7 +154,7 @@ const Solutions: React.FC = () => {
                                     />
 
                                     {/* Gradient & Overlay Layers */}
-                                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80 z-10"></div>
+                                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-nasa-black/80 z-10"></div>
                                     <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors duration-500 z-10"></div>
 
                                     {/* Content Container */}

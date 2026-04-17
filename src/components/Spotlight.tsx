@@ -2,7 +2,7 @@ import React from 'react';
 
 const Spotlight: React.FC = () => {
     return (
-        <section className="bg-black py-24 relative overflow-hidden">
+        <section className="bg-nasa-black py-24 relative overflow-hidden">
             <div className="absolute inset-0 opacity-30">
                 <img
                     className="w-full h-full object-cover blur-sm"

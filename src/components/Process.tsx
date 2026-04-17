@@ -50,7 +50,7 @@ const Process: React.FC = () => {
 
                             {/* Step Header */}
                             <div className="flex items-center gap-6 mb-8 relative z-10">
-                                <div className="size-16 bg-white border border-slate-200 flex items-center justify-center relative group-hover:bg-slate-950 group-hover:border-slate-950 transition-all duration-500 shadow-xl shadow-slate-200/50">
+                                <div className="size-16 bg-white border border-slate-200 flex items-center justify-center relative group-hover:bg-nasa-black group-hover:border-nasa-black transition-all duration-500 shadow-xl shadow-slate-200/50">
                                     <span className="material-symbols-outlined text-3xl text-slate-400 group-hover:text-primary transition-colors">
                                         {step.icon}
                                     </span>

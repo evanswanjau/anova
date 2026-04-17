@@ -6,7 +6,7 @@ const Insights: React.FC = () => {
             <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
                 <div className="flex justify-between items-center mb-8">
                     <h2 className="text-4xl font-bold tracking-tight text-slate-900">Guides & Updates</h2>
-                    <a className="text-sm font-bold uppercase tracking-widest text-primary hover:text-black flex items-center gap-1" href="#">
+                    <a className="text-sm font-bold uppercase tracking-widest text-primary hover:text-nasa-black flex items-center gap-1" href="#">
                         Read More <span className="material-symbols-outlined text-base">add_circle</span>
                     </a>
                 </div>
@@ -20,7 +20,7 @@ const Insights: React.FC = () => {
                         <div className="absolute inset-0 gradient-overlay-b"></div>
                         <div className="absolute bottom-0 left-0 p-8 w-full">
                             <div className="flex items-center gap-2 mb-3">
-                                <span className="bg-slate-900 text-white text-[10px] font-bold uppercase px-2 py-1">Architectural Review</span>
+                                <span className="bg-nasa-black text-white text-[10px] font-bold uppercase px-2 py-1">Architectural Review</span>
                                 <span className="text-gray-300 text-xs font-mono uppercase">Reference 402</span>
                             </div>
                             <h3 className="text-white text-3xl font-bold leading-tight mb-2 group-hover:underline decoration-1 underline-offset-8">

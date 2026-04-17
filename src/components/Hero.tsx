@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
     ];
 
     return (
-        <main className="relative w-full h-[75vh] min-h-[600px] bg-black group/hero overflow-hidden">
+        <main className="relative w-full h-[75vh] min-h-[600px] bg-nasa-black group/hero overflow-hidden">
             <div className="embla h-full" ref={emblaRef}>
                 <div className="embla__container h-full flex">
                     {slides.map((slide, index) => (
@@ -64,8 +64,8 @@ const Hero: React.FC = () => {
                                     className={`w-full h-full object-cover opacity-60 transition-transform duration-[10s] ${selectedIndex === index ? 'scale-110' : 'scale-100'}`}
                                     src={slide.image}
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent"></div>
-                                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                                <div className="absolute inset-0 bg-gradient-to-r from-nasa-black via-nasa-black/40 to-transparent"></div>
+                                <div className="absolute inset-0 bg-gradient-to-t from-nasa-black via-transparent to-transparent"></div>
                             </div>
 
                             {/* Content */}
@@ -116,7 +116,7 @@ const Hero: React.FC = () => {
             </div>
 
             {/* Bottom Bar: Single Mission Sentence */}
-            <div className="absolute bottom-0 w-full border-t border-white/5 bg-black/40 backdrop-blur-xl py-8 z-20">
+            <div className="absolute bottom-0 w-full border-t border-white/5 bg-nasa-black/40 backdrop-blur-xl py-8 z-20">
                 <div className="max-w-[1440px] mx-auto px-6 lg:px-12 flex justify-start text-left">
                     <p className="text-white text-xs md:text-sm font-bold uppercase tracking-[0.4em] leading-relaxed">
                         Precision <span className="text-gray-400">Infrastructure</span> &nbsp; • &nbsp; Expert <span className="text-gray-400">Hardware</span> Supply &nbsp; • &nbsp; 15+ Years of <span className="text-gray-500">Excellence</span>

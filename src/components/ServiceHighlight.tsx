@@ -16,7 +16,7 @@ const ServiceHighlight: React.FC = () => {
                             Browse Image Archive <span className="material-symbols-outlined text-sm bg-primary text-white rounded-none">add</span>
                         </a>
                     </div>
-                    <div className="h-[400px] md:h-auto bg-black relative">
+                    <div className="h-[400px] md:h-auto bg-nasa-black relative">
                         <img
                             className="absolute inset-0 w-full h-full object-cover opacity-100"
                             src={serverImage}
