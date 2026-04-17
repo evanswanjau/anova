@@ -1,11 +1,11 @@
 import React from 'react';
-import ciscoLogo from '../assets/images/cisco.png';
-import microsoftLogo from '../assets/images/microsoft.png';
-import hpLogo from '../assets/images/hp.svg';
-import lenovoLogo from '../assets/images/lenovo.png';
-import safaricomLogo from '../assets/images/safaricom.png';
-import liquidLogo from '../assets/images/liquid.png';
-import oracleLogo from '../assets/images/oracle.jpg';
+import ciscoLogo from '../assets/images/partners/cisco.png';
+import microsoftLogo from '../assets/images/partners/microsoft.png';
+import hpLogo from '../assets/images/partners/hp.svg';
+import lenovoLogo from '../assets/images/partners/lenovo.png';
+import safaricomLogo from '../assets/images/partners/safaricom.png';
+import liquidLogo from '../assets/images/partners/liquid.png';
+import oracleLogo from '../assets/images/partners/oracle.jpg';
 
 const Partners: React.FC = () => {
     const partners = [
