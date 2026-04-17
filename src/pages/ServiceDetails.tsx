@@ -73,7 +73,7 @@ const ServiceDetails: React.FC = () => {
     return (
         <div className="bg-white dark:bg-slate-900 min-h-screen font-body antialiased text-slate-900 dark:text-slate-100">
             {/* Nav Header - Breadcrumb style */}
-            <div className="bg-black/5 border-b border-gray-200 dark:border-white/10 py-4 absolute w-full z-20">
+            <div className="bg-nasa-black/5 border-b border-gray-200 dark:border-white/10 py-4 absolute w-full z-20">
                 <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
                     <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-white/60">
                         <Link to="/" className="hover:text-primary transition-colors">Home</Link>
@@ -93,7 +93,7 @@ const ServiceDetails: React.FC = () => {
                         className="w-full h-full object-cover grayscale-[0.2]"
                         src={service.capabilities?.[0]?.image || "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-nasa-black via-nasa-black/40 to-transparent"></div>
                 </div>
                 <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 lg:px-12 pb-24 md:pb-32">
                     <div className="max-w-3xl">
@@ -109,7 +109,7 @@ const ServiceDetails: React.FC = () => {
                         </p>
                         <a
                             href={`mailto:info@anova.co.ke?subject=Inquiry: ${service.title}`}
-                            className="inline-flex items-center px-10 py-5 bg-primary text-white font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-black transition-all group"
+                            className="inline-flex items-center px-10 py-5 bg-primary text-white font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-nasa-black transition-all group"
                         >
                             Schedule Consultation
                             <span className="material-symbols-outlined ml-3 group-hover:translate-x-1 transition-transform text-lg">arrow_forward</span>
@@ -118,7 +118,7 @@ const ServiceDetails: React.FC = () => {
                 </div>
 
                 {/* Bottom Hero Bar - Related Services */}
-                <div className="absolute bottom-0 w-full bg-black/80 backdrop-blur-md border-t border-white/10 hidden md:block z-20">
+                <div className="absolute bottom-0 w-full bg-nasa-black/80 backdrop-blur-md border-t border-white/10 hidden md:block z-20">
                     <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
                         <div className="grid grid-cols-3 divide-x divide-white/10">
                             {otherServices.map((other) => (
@@ -283,7 +283,7 @@ const ServiceDetails: React.FC = () => {
                         )}
 
                         {/* Consulting Banner */}
-                        <div className="relative bg-slate-900 overflow-hidden mb-24">
+                        <div className="relative bg-nasa-black overflow-hidden mb-24">
                             <div className="absolute inset-0 opacity-20 pointer-events-none">
                                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(47,109,65,0.4),transparent_70%)]"></div>
                             </div>
@@ -328,7 +328,7 @@ const ServiceDetails: React.FC = () => {
                         </div>
 
                         {/* Service Levels Bar Section */}
-                        <div className="bg-slate-900 p-8 text-white border-t-8 border-primary shadow-2xl relative overflow-hidden">
+                        <div className="bg-nasa-black p-8 text-white border-t-8 border-primary shadow-2xl relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 -translate-y-1/2 translate-x-1/2 rounded-full blur-3xl"></div>
                             <div className="flex items-center gap-3 mb-10">
                                 <span className="w-8 h-[1px] bg-primary/40"></span>
@@ -380,7 +380,7 @@ const ServiceDetails: React.FC = () => {
                                         <option>Pricing Inquiry</option>
                                     </select>
                                 </div>
-                                <button className="w-full bg-primary text-white py-4 text-[10px] font-black uppercase tracking-[0.2em] hover:bg-black transition-all">
+                                <button className="w-full bg-primary text-white py-4 text-[10px] font-black uppercase tracking-[0.2em] hover:bg-nasa-black transition-all">
                                     Submit Request
                                 </button>
                                 <p className="text-[9px] text-slate-400 text-center uppercase tracking-widest mt-4">Typical response: &lt; 15 mins</p>

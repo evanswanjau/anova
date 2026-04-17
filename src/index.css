@@ -22,3 +22,8 @@
 body {
   @apply antialiased overflow-x-hidden font-display;
 }
+
+/* Hide Google reCAPTCHA badge as it conflicts with WhatsApp button */
+.grecaptcha-badge {
+  visibility: hidden;
+}

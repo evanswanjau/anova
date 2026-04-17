@@ -8,7 +8,7 @@ export default {
       colors: {
         "primary": "#2f6d41",
         "nasa-blue": "#0B3D91",
-        "nasa-black": "#000000",
+        "nasa-black": "#061d11",
         "nasa-gray": "#F5F5F5",
         "accent-red": "#fc3f22",
       },
