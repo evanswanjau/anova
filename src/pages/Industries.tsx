@@ -172,7 +172,7 @@ const Industries: React.FC = () => {
                 <section className="bg-nasa-black py-24 relative overflow-hidden h-[50vh] flex items-center">
                     <div
                         ref={parallaxRef}
-                        className="absolute inset-0 w-full h-[120%] will-change-transform"
+                        className="absolute inset-0 w-full h-[170%] will-change-transform"
                     >
                         <div
                             className="absolute inset-0 opacity-50 bg-cover bg-center bg-no-repeat"
