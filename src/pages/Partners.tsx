@@ -182,7 +182,7 @@ const Partners: React.FC = () => {
                                     <span className="text-primary font-black uppercase tracking-[0.4em] text-xs">Our Track Record</span>
                                 </div>
                                 <h2 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none">
-                                    Organizations that Trust<br />Anova's Expertise
+                                    Our Client Network
                                 </h2>
                             </div>
                             <div className="flex items-center gap-4 text-right">
