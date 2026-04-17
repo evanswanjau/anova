@@ -2,6 +2,35 @@ import React, { useEffect, useRef, useState } from 'react';
 import contactHero from '../assets/images/contact.jpg';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 
+/* ─────────────────────────────────────────────
+   Scroll-reveal hook
+───────────────────────────────────────────── */
+function useReveal() {
+    const ref = useRef<HTMLDivElement>(null);
+    useEffect(() => {
+        const el = ref.current;
+        if (!el) return;
+        const obs = new IntersectionObserver(
+            ([entry]) => { if (entry.isIntersecting) { el.classList.add('revealed'); obs.disconnect(); } },
+            { threshold: 0.1 }
+        );
+        obs.observe(el);
+        return () => obs.disconnect();
+    }, []);
+    return ref;
+}
+
+const Reveal: React.FC<{ children: React.ReactNode; className?: string; delay?: number }> = ({
+    children, className = '', delay = 0
+}) => {
+    const ref = useReveal();
+    return (
+        <div ref={ref} className={`reveal-block ${className}`} style={{ transitionDelay: `${delay}ms` }}>
+            {children}
+        </div>
+    );
+};
+
 const Contact: React.FC = () => {
     const parallaxRef = useRef<HTMLDivElement>(null);
     const { executeRecaptcha } = useGoogleReCaptcha();
@@ -81,7 +110,12 @@ const Contact: React.FC = () => {
     };
 
     return (
-        <div className="bg-white">
+        <>
+            <style>{`
+                .reveal-block { opacity: 0; transform: translateY(28px); transition: opacity 0.6s ease, transform 0.6s ease; }
+                .reveal-block.revealed { opacity: 1; transform: translateY(0); }
+            `}</style>
+            <div className="bg-white">
             {/* Hero Section */}
             <section className="bg-nasa-black py-16 md:py-24 relative overflow-hidden h-[50vh] flex items-center">
                 <div
@@ -96,13 +130,15 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="max-w-[1440px] mx-auto px-6 lg:px-12 relative z-10 w-full text-left">
                     <div className="max-w-4xl">
-                        <div className="flex items-center gap-4 mb-4">
-                            <span className="h-[2px] w-12 bg-primary"></span>
-                            <span className="text-primary font-black uppercase tracking-[0.4em] text-xs">Get In Touch</span>
-                        </div>
-                        <h1 className="text-5xl md:text-8xl font-black text-white tracking-tighter leading-tight md:leading-none mb-8">
-                            Connect with our Experts
-                        </h1>
+                        <Reveal>
+                            <div className="flex items-center gap-4 mb-4">
+                                <span className="h-[2px] w-12 bg-primary"></span>
+                                <span className="text-primary font-black uppercase tracking-[0.4em] text-xs">Get In Touch</span>
+                            </div>
+                            <h1 className="text-5xl md:text-8xl font-black text-white tracking-tighter leading-tight md:leading-none mb-8">
+                                Connect with our Experts
+                            </h1>
+                        </Reveal>
                     </div>
                 </div>
             </section>
@@ -112,7 +148,7 @@ const Contact: React.FC = () => {
                 <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 shrink-0">
                         {/* Left Column: Contact Details & Map */}
-                        <div className="space-y-12 shrink-0">
+                        <Reveal className="space-y-12 shrink-0">
                             <div>
                                 <h2 className="text-3xl font-black text-slate-900 tracking-tighter uppercase mb-8 border-l-4 border-primary pl-4">
                                     Headquarters
@@ -175,10 +211,10 @@ const Contact: React.FC = () => {
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.792651363805!2d36.78747347582768!3d-1.2991939356421394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f109984d702e7%3A0x3b18f0c9f023bbae!2sParesia%20Centre!5e0!3m2!1sen!2ske!4v1770623885448!5m2!1sen!2ske" width="600" height="450" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                 <div className="absolute inset-0 bg-primary/10 pointer-events-none group-hover:opacity-0 transition-opacity"></div>
                             </div>
-                        </div>
+                        </Reveal>
 
                         {/* Right Column: Inquiry Form & WhatsApp CTA */}
-                        <div className="space-y-12 shrink-0">
+                        <Reveal className="space-y-12 shrink-0" delay={200}>
                             <div>
                                 <h2 className="text-3xl font-black text-slate-900 tracking-tighter uppercase mb-8 border-l-4 border-primary pl-4">
                                     Customer Inquiry
@@ -237,6 +273,12 @@ const Contact: React.FC = () => {
                                             'Submit Request'
                                         )}
                                     </button>
+
+                                    <p className="text-[10px] text-slate-400 mt-4 leading-relaxed">
+                                        This site is protected by reCAPTCHA and the Google{' '}
+                                        <a href="https://policies.google.com/privacy" className="underline hover:text-primary transition-colors">Privacy Policy</a> and{' '}
+                                        <a href="https://policies.google.com/terms" className="underline hover:text-primary transition-colors">Terms of Service</a> apply.
+                                    </p>
                                 </form>
                             </div>
 
@@ -267,7 +309,7 @@ const Contact: React.FC = () => {
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </Reveal>
                     </div>
                 </div>
             </section>
@@ -275,33 +317,38 @@ const Contact: React.FC = () => {
             {/* FAQs Preview */}
             <section className="py-16 md:py-24 bg-slate-50">
                 <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
-                    <div className="mb-16 border-b border-slate-200 pb-8">
-                        <span className="text-primary font-black uppercase tracking-[0.4em] text-xs block mb-4">Knowledge Base</span>
-                        <h2 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none">
-                            Common Questions<br />About Our Services
-                        </h2>
-                    </div>
+                    <Reveal>
+                        <div className="mb-16 border-b border-slate-200 pb-8">
+                            <span className="text-primary font-black uppercase tracking-[0.4em] text-xs block mb-4">Knowledge Base</span>
+                            <h2 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tighter uppercase leading-none">
+                                Common Questions<br />About Our Services
+                            </h2>
+                        </div>
+                    </Reveal>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
                         {faqs.map((faq, index) => (
-                            <div key={index} className="space-y-4">
-                                <h3 className="text-lg font-black text-slate-900 uppercase tracking-tight flex items-start gap-3">
-                                    <span className="text-primary">Q.</span>
-                                    {faq.question}
-                                </h3>
-                                <p className="text-slate-500 text-sm leading-relaxed pl-7 border-l-2 border-slate-200">
-                                    {faq.answer}
-                                </p>
-                            </div>
+                            <Reveal key={index} delay={index * 100}>
+                                <div className="space-y-4">
+                                    <h3 className="text-lg font-black text-slate-900 uppercase tracking-tight flex items-start gap-3">
+                                        <span className="text-primary">Q.</span>
+                                        {faq.question}
+                                    </h3>
+                                    <p className="text-slate-500 text-sm leading-relaxed pl-7 border-l-2 border-slate-200">
+                                        {faq.answer}
+                                    </p>
+                                </div>
+                            </Reveal>
                         ))}
                     </div>
-                    <div className="flex justify-end">
+                    <Reveal className="flex justify-end" delay={400}>
                         <a href="/faqs" className="text-primary font-black uppercase tracking-widest text-xs flex items-center gap-2 hover:gap-4 transition-all">
                             Visit FAQs Page <span className="material-symbols-outlined text-sm">east</span>
                         </a>
-                    </div>
+                    </Reveal>
                 </div>
             </section>
         </div>
+        </>
     );
 };
 
