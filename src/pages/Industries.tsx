@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import industriesHero from '../assets/images/slider1.jpg';
+import industriesHero from '../assets/images/industries-hero.jpg';
 
 /* ─────────────────────────────────────────────
    Scroll-reveal hook
