@@ -10,6 +10,7 @@ import lenovoLogo from '../assets/images/partners/lenovo.png';
 import safaricomLogo from '../assets/images/partners/safaricom.png';
 import liquidLogo from '../assets/images/partners/liquid.png';
 import oracleLogo from '../assets/images/partners/oracle.jpg';
+import dellLogo from '../assets/images/partners/dell.png';
 
 // Client Logos (12 files)
 import kcicLogo from '../assets/images/clients/KCIC-LOGO-01.png';
@@ -88,7 +89,8 @@ const Partners: React.FC = () => {
         { name: "LENOVO", logo: lenovoLogo, category: "Infrastructure Solutions", desc: "Direct partner for data center systems and high-performance computing hardware." },
         { name: "ORACLE", logo: oracleLogo, category: "Database & Cloud", desc: "Specialized partner for database management and enterprise cloud applications." },
         { name: "SAFARICOM", logo: safaricomLogo, category: "Connectivity", desc: "Strategic ISP partner delivering dedicated fiber and enterprise mobility solutions." },
-        { name: "LIQUID", logo: liquidLogo, category: "Infrastructure", desc: "High-speed terrestrial fiber and satellite connectivity solutions across Africa." }
+        { name: "LIQUID", logo: liquidLogo, category: "Infrastructure", desc: "High-speed terrestrial fiber and satellite connectivity solutions across Africa." },
+        { name: "DELL", logo: dellLogo, category: "Infrastructure & Computing", desc: "Tier 1 partner for enterprise servers, storage solutions, and client computing technology." }
     ];
 
     const clients = [
@@ -213,7 +215,6 @@ const Partners: React.FC = () => {
                 <section className="py-24 bg-white border-t border-gray-100">
                     <div className="max-w-[1440px] mx-auto px-6 lg:px-12 text-center">
                         <Reveal>
-                            <SectionLabel>Collaboration</SectionLabel>
                             <h2 className="text-4xl md:text-6xl font-black text-slate-900 tracking-tighter uppercase mb-8">
                                 Join Our Network
                             </h2>
