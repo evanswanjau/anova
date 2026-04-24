@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import newsHero from '../assets/images/news-hero.jpg';
 
 /* ─────────────────────────────────────────────
@@ -38,6 +39,7 @@ const SectionLabel: React.FC<{ children: React.ReactNode }> = ({ children }) => 
 );
 
 const News: React.FC = () => {
+    useDocumentTitle("News");
     const parallaxRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {

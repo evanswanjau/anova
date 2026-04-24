@@ -1,3 +1,4 @@
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import Hero from '../components/Hero';
 import Metrics from '../components/Metrics';
 import Insights from '../components/Insights';
@@ -9,6 +10,7 @@ import Testimonials from '../components/Testimonials';
 import Partners from '../components/Partners';
 
 function Home() {
+    useDocumentTitle("Anova - Your ICT Partner");
     return (
         <>
             <Hero />

@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import careersData from '../data/careers.json';
 
 const JobDetails: React.FC = () => {
+    useDocumentTitle("Job Details");
     const { id } = useParams<{ id: string }>();
     const job = careersData.find(j => j.id === id);
     const [copied, setCopied] = useState(false);

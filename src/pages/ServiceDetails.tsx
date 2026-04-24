@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import servicesData from '../data/services.json';
 
 interface Capability {
@@ -55,6 +56,7 @@ interface Service {
 }
 
 const ServiceDetails: React.FC = () => {
+    useDocumentTitle("Service Details");
     const { id } = useParams<{ id: string }>();
     const [activeFaq, setActiveFaq] = useState<number | null>(0);
     const service = (servicesData as Service[]).find(s => s.id === id);

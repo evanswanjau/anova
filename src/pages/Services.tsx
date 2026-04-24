@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import servicesData from '../data/services.json';
 import servicesHero from '../assets/images/networking.jpg';
 
 const Services: React.FC = () => {
+    useDocumentTitle("Services");
     const parallaxRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {

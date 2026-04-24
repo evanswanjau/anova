@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import industriesHero from '../assets/images/industries-hero.jpg';
 
 /* ─────────────────────────────────────────────
@@ -143,6 +144,7 @@ const crossIndustryPoints = [
    Page
 ───────────────────────────────────────────── */
 const Industries: React.FC = () => {
+    useDocumentTitle("Industries");
     const parallaxRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {

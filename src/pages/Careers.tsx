@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import { Link } from 'react-router-dom';
 import careersData from '../data/careers.json';
 import careersHero from '../assets/images/careers.jpg';
@@ -41,6 +42,7 @@ const SectionLabel: React.FC<{ children: React.ReactNode }> = ({ children }) => 
 );
 
 const Careers: React.FC = () => {
+    useDocumentTitle("Careers");
     const parallaxRef = useRef<HTMLDivElement>(null);
     const jobs = careersData || [];
 

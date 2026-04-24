@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import { Link } from 'react-router-dom';
 import aboutHero from '../assets/images/about-hero.jpg';
 import teamImage from '../assets/images/about-info.jpg';
@@ -166,6 +167,7 @@ const differentiators = [
 ───────────────────────────────────────────── */
 
 const About: React.FC = () => {
+    useDocumentTitle("About");
     const parallaxRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {

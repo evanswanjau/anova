@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import partnersHero from '../assets/images/partners-hero.jpg';
 
 // Partner Logos
@@ -63,6 +64,7 @@ const Reveal: React.FC<{ children: React.ReactNode; className?: string; delay?: 
 };
 
 const Partners: React.FC = () => {
+    useDocumentTitle("Partners");
     const parallaxRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {

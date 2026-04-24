@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import contactHero from '../assets/images/contact.jpg';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 
@@ -32,6 +33,7 @@ const Reveal: React.FC<{ children: React.ReactNode; className?: string; delay?: 
 };
 
 const Contact: React.FC = () => {
+    useDocumentTitle("Contact");
     const parallaxRef = useRef<HTMLDivElement>(null);
     const { executeRecaptcha } = useGoogleReCaptcha();
     const [isSubmitting, setIsSubmitting] = useState(false);
