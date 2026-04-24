@@ -1,42 +1,103 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logoWhite from '../assets/images/logo-white.png';
 
 const Footer: React.FC = () => {
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [isSuccess, setIsSuccess] = useState(false);
+    const [formData, setFormData] = useState({
+        name: '',
+        phone: '',
+        type: 'Call Back'
+    });
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        setIsSubmitting(true);
+        
+        // Simulate API call
+        setTimeout(() => {
+            setIsSubmitting(false);
+            setIsSuccess(true);
+            setFormData({ name: '', phone: '', type: 'Call Back' });
+            
+            // Reset success message after 5 seconds
+            setTimeout(() => setIsSuccess(false), 5000);
+        }, 1500);
+    };
+
     return (
         <>
-            {/* Newsletter Section */}
-            <section className="relative py-20 md:py-0 md:h-96 overflow-hidden flex items-center">
+            {/* Enquiry/CTA Section */}
+            <section className="relative py-20 overflow-hidden flex items-center min-h-[400px]">
                 <div className="absolute inset-0">
                     <img
                         alt="Circuit board close up"
                         className="w-full h-full object-cover"
                         src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_gH5j_1hTREJq8NyHAGei8SGc9yPlIK9AjgKYcUqnJJjQGk6NZv98F5xPS8yS4WCF9y3jaGlsXxClLuCjXzU71d1g6s9He0dujEW2EUnvjm71wR7iCN1VDtV4Ida9rM7MqetsHHd-KoOWMIIvD5MF98fMqvh8wfwHkmmN9Tq75f7ljgSNk6LzMtSiSfM26rGkmz9_GU9Zp6dp0oytCJ507zD5UfkO-7zjmgSEq6WhczBqgI5NPrX7m_MXRGYTZgNW63LkURbjUhg"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-r from-nasa-black via-nasa-black/70 to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-nasa-black via-nasa-black/80 to-transparent"></div>
                 </div>
                 <div className="relative z-10 max-w-[1440px] mx-auto px-6 lg:px-12 w-full">
-                    <div className="max-w-2xl">
-                        <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">
-                            Streamline your<br />IT operations
+                    <div className="max-w-3xl">
+                        <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6 uppercase tracking-tighter">
+                            Ready to transform your<br />digital landscape?
                         </h2>
-                        <p className="text-gray-200 text-lg mb-8 max-w-lg">
-                            Subscribe to our technical newsletter. Stay updated on the latest vulnerabilities, patches, and technology trends that impact your business.
+                        <p className="text-gray-200 text-lg mb-10 max-w-lg">
+                            Whether you need a quick call back or have a specific product enquiry, our team is ready to assist.
                         </p>
-                        <form className="flex flex-col sm:flex-row gap-4 max-w-md">
-                            <input
-                                className="flex-1 bg-white/10 border border-gray-500 text-white placeholder-gray-400 px-4 py-3 focus:outline-none focus:border-primary focus:bg-white/20"
-                                placeholder="Enter your email"
-                                type="email"
-                            />
-                            <button
-                                className="bg-primary text-white font-bold px-6 py-3 hover:bg-primary/90 transition-colors uppercase tracking-wide"
-                                type="button"
-                            >
-                                Subscribe
-                            </button>
-                        </form>
-                        <p className="text-xs text-gray-400 mt-4">We respect your privacy. No spam.</p>
+                        
+                        {isSuccess ? (
+                            <div className="bg-primary/20 border border-primary/50 p-8 max-w-md backdrop-blur-sm">
+                                <span className="material-symbols-outlined text-primary text-4xl mb-4">check_circle</span>
+                                <h3 className="text-white font-bold text-xl mb-2">Request Received!</h3>
+                                <p className="text-gray-200">Thank you. One of our experts will get back to you shortly.</p>
+                            </div>
+                        ) : (
+                            <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl">
+                                <div className="space-y-4 col-span-2 md:col-span-1">
+                                    <input
+                                        required
+                                        className="w-full bg-white/10 border border-white/20 text-white placeholder-gray-400 px-4 py-4 focus:outline-none focus:border-primary focus:bg-white/20 transition-all"
+                                        placeholder="Full Name"
+                                        value={formData.name}
+                                        onChange={(e) => setFormData({...formData, name: e.target.value})}
+                                    />
+                                    <input
+                                        required
+                                        className="w-full bg-white/10 border border-white/20 text-white placeholder-gray-400 px-4 py-4 focus:outline-none focus:border-primary focus:bg-white/20 transition-all"
+                                        placeholder="Phone Number"
+                                        value={formData.phone}
+                                        onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                                    />
+                                </div>
+                                <div className="space-y-4 col-span-2 md:col-span-1">
+                                    <select
+                                        className="w-full bg-nasa-black border border-white/20 text-white px-4 py-4 focus:outline-none focus:border-primary transition-all appearance-none cursor-pointer"
+                                        value={formData.type}
+                                        onChange={(e) => setFormData({...formData, type: e.target.value})}
+                                    >
+                                        <option value="Call Back">Request Call Back</option>
+                                        <option value="Product Enquiry">Product Enquiry</option>
+                                        <option value="Technical Support">Technical Support</option>
+                                    </select>
+                                    <button
+                                        disabled={isSubmitting}
+                                        className={`w-full bg-primary text-white font-black px-6 py-4 hover:bg-primary/90 transition-all uppercase tracking-widest text-sm flex items-center justify-center gap-3 ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
+                                        type="submit"
+                                    >
+                                        {isSubmitting ? (
+                                            <>
+                                                <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
+                                                Sending...
+                                            </>
+                                        ) : (
+                                            'Send Request'
+                                        )}
+                                    </button>
+                                </div>
+                            </form>
+                        )}
                     </div>
                 </div>
             </section>
