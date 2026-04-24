@@ -22,7 +22,7 @@ const Services: React.FC = () => {
     return (
         <div className="bg-white min-h-screen">
             {/* Hero Section */}
-            <section className="bg-black py-16 md:py-24 relative overflow-hidden h-[50vh] flex items-center">
+            <section className="bg-black pt-[104px] pb-16 md:pb-24 relative overflow-hidden h-[60vh] flex items-center">
                 <div
                     ref={parallaxRef}
                     className="absolute inset-0 w-full h-[120%] -top-[10%] will-change-transform"

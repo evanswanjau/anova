@@ -65,7 +65,7 @@ const Careers: React.FC = () => {
             `}</style>
 
             {/* Hero Section */}
-            <section className="bg-nasa-black py-24 relative overflow-hidden h-[50vh] flex items-center">
+            <section className="bg-nasa-black pt-[104px] pb-24 relative overflow-hidden h-[60vh] flex items-center">
                 <div
                     ref={parallaxRef}
                     className="absolute inset-0 w-full h-[170%] will-change-transform"

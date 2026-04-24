@@ -192,7 +192,7 @@ const About: React.FC = () => {
             <div className="bg-white">
 
                 {/* ── 1. HERO ────────────────────────────────── */}
-                <section className="bg-nasa-black py-16 lg:py-24 relative overflow-hidden h-[60vh] lg:h-[50vh] flex items-center">
+                <section className="bg-nasa-black pt-[104px] pb-16 lg:pb-24 relative overflow-hidden h-[70vh] lg:h-[60vh] flex items-center">
                     <div
                         ref={parallaxRef}
                         className="absolute inset-0 w-full h-[170%] will-change-transform"

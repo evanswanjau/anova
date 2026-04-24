@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
     ];
 
     return (
-        <main className="relative w-full h-[75vh] min-h-[600px] bg-nasa-black group/hero overflow-hidden">
+        <main className="relative w-full h-[85vh] min-h-[600px] bg-nasa-black group/hero overflow-hidden">
             <div className="embla h-full" ref={emblaRef}>
                 <div className="embla__container h-full flex">
                     {slides.map((slide, index) => (
@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
                             </div>
 
                             {/* Content */}
-                            <div className="absolute inset-0 flex flex-col justify-center px-6 lg:px-12 max-w-[1440px] mx-auto z-10">
+                            <div className="absolute inset-0 flex flex-col justify-center px-6 lg:px-12 max-w-[1440px] mx-auto z-10 pt-[104px]">
                                 <div className="max-w-4xl">
                                     <div className={`flex items-center gap-4 mb-8 transition-all duration-1000 ${selectedIndex === index ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
                                         <span className="h-[2px] w-12 bg-primary"></span>

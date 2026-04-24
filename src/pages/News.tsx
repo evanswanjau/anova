@@ -123,7 +123,7 @@ const News: React.FC = () => {
 
             <div className="bg-white">
                 {/* Hero Section */}
-                <section className="bg-slate-900 py-24 relative overflow-hidden h-[50vh] flex items-center">
+                <section className="bg-slate-900 pt-[104px] pb-24 relative overflow-hidden h-[60vh] flex items-center">
                     <div
                         ref={parallaxRef}
                         className="absolute inset-0 w-full h-[120%] will-change-transform"

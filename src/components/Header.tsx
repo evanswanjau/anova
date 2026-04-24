@@ -96,7 +96,7 @@ const Header: React.FC = () => {
     const linkHoverClass = isMobileMenuOpen || !isScrolled ? 'hover:text-primary' : 'hover:text-primary';
 
     return (
-        <nav className={`fixed top-0 w-full z-50 py-4 transition-all duration-300 ${navClass}`}>
+        <nav className={`fixed top-0 w-full z-50 py-8 transition-all duration-300 ${navClass}`}>
             <div className="max-w-[1440px] mx-auto px-6 lg:px-12 flex items-center">
                 {/* Logo/Brand - Left Aligned */}
                 <div className="flex-1 flex items-center">
@@ -205,7 +205,7 @@ const Header: React.FC = () => {
             </div>
 
             {/* Mobile Menu Overlay */}
-            <div className={`lg:hidden fixed inset-0 top-[73px] bg-nasa-black text-white z-40 transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+            <div className={`lg:hidden fixed inset-0 top-[105px] bg-nasa-black text-white z-40 transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
                 <div className="flex flex-col p-6 gap-6 uppercase text-sm font-bold tracking-widest pt-12 text-left">
                     {/* Mobile Search */}
                     <div className="relative mb-4">

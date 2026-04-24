@@ -117,7 +117,7 @@ const Contact: React.FC = () => {
             `}</style>
             <div className="bg-white">
             {/* Hero Section */}
-            <section className="bg-nasa-black py-16 md:py-24 relative overflow-hidden h-[50vh] flex items-center">
+            <section className="bg-nasa-black pt-[104px] pb-16 md:pb-24 relative overflow-hidden h-[60vh] flex items-center">
                 <div
                     ref={parallaxRef}
                     className="absolute inset-0 w-full h-[120%] -top-[10%] will-change-transform"
