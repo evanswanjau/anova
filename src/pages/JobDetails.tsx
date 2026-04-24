@@ -41,40 +41,43 @@ const JobDetails: React.FC = () => {
 
     return (
         <div className="bg-white min-h-screen">
-            {/* Nav Header */}
-            <div className="bg-gray-50 border-b border-gray-100 py-6">
-                <div className="max-w-[1440px] mx-auto px-6 lg:px-12 flex items-center justify-between">
-                    <Link to="/careers" className="flex items-center gap-2 text-slate-500 hover:text-primary transition-colors text-sm font-bold uppercase tracking-widest">
-                        <span className="material-symbols-outlined text-sm">arrow_back</span>
-                        Back to Careers
-                    </Link>
-                    <div className="hidden md:flex items-center gap-6 text-xs font-black uppercase tracking-[0.2em] text-slate-400">
-                        <span>{job.department}</span>
-                        <span className="w-1 h-1 bg-gray-300 rounded-full"></span>
-                        <span>{job.type}</span>
+            {/* Dark Hero Section */}
+            <section className="bg-nasa-black pt-[104px] pb-20">
+                {/* Nav Header */}
+                <div className="border-b border-white/10 py-6">
+                    <div className="max-w-[1440px] mx-auto px-6 lg:px-12 flex items-center justify-between">
+                        <Link to="/careers" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm font-bold uppercase tracking-widest">
+                            <span className="material-symbols-outlined text-sm">arrow_back</span>
+                            Back to Careers
+                        </Link>
+                        <div className="hidden md:flex items-center gap-6 text-xs font-black uppercase tracking-[0.2em] text-gray-500">
+                            <span>{job.department}</span>
+                            <span className="w-1 h-1 bg-gray-700 rounded-full"></span>
+                            <span>{job.type}</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            {/* Job Title Section */}
-            <section className="py-20 bg-white">
-                <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
-                    <div className="max-w-4xl">
-                        <h1 className="text-4xl md:text-6xl font-black text-slate-900 tracking-tight mb-8 leading-tight">
-                            {job.title}
-                        </h1>
-                        <div className="flex flex-wrap gap-8 items-center text-slate-600">
-                            <div className="flex items-center gap-3">
-                                <span className="material-symbols-outlined text-primary font-light">location_on</span>
-                                <span className="font-bold uppercase tracking-widest text-xs">{job.location}</span>
-                            </div>
-                            <div className="flex items-center gap-3">
-                                <span className="material-symbols-outlined text-primary font-light">schedule</span>
-                                <span className="font-bold uppercase tracking-widest text-xs">{job.type}</span>
-                            </div>
-                            <div className="flex items-center gap-3">
-                                <span className="material-symbols-outlined text-primary font-light">work</span>
-                                <span className="font-bold uppercase tracking-widest text-xs">{job.department}</span>
+                {/* Job Title Section */}
+                <div className="pt-20">
+                    <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
+                        <div className="max-w-4xl">
+                            <h1 className="text-4xl md:text-6xl font-black text-white tracking-tight mb-8 leading-tight">
+                                {job.title}
+                            </h1>
+                            <div className="flex flex-wrap gap-8 items-center text-gray-300">
+                                <div className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-light">location_on</span>
+                                    <span className="font-bold uppercase tracking-widest text-xs text-gray-400">{job.location}</span>
+                                </div>
+                                <div className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-light">schedule</span>
+                                    <span className="font-bold uppercase tracking-widest text-xs text-gray-400">{job.type}</span>
+                                </div>
+                                <div className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-light">work</span>
+                                    <span className="font-bold uppercase tracking-widest text-xs text-gray-400">{job.department}</span>
+                                </div>
                             </div>
                         </div>
                     </div>
