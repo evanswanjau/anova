@@ -208,7 +208,7 @@ const Contact: React.FC = () => {
 
                             {/* Map Iframe Overlay */}
                             <div className="h-96 w-full bg-slate-100 grayscale hover:grayscale-0 transition-all duration-700 border border-slate-100 relative group overflow-hidden shrink-0">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.792651363805!2d36.78747347582768!3d-1.2991939356421394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f109984d702e7%3A0x3b18f0c9f023bbae!2sParesia%20Centre!5e0!3m2!1sen!2ske!4v1770623885448!5m2!1sen!2ske" width="600" height="450" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.792651363805!2d36.78747347582768!3d-1.2991939356421394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f109984d702e7%3A0x3b18f0c9f023bbae!2sParesia%20Centre!5e0!3m2!1sen!2ske!4v1770623885448!5m2!1sen!2ske" className="w-full h-full" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                 <div className="absolute inset-0 bg-primary/10 pointer-events-none group-hover:opacity-0 transition-opacity"></div>
                             </div>
                         </Reveal>
