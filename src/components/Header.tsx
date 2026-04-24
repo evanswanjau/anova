@@ -155,9 +155,9 @@ const Header: React.FC = () => {
                                 onChange={(e) => handleSearch(e.target.value)}
                                 onFocus={() => setIsSearchFocused(true)}
                                 onKeyDown={handleKeyDown}
-                                className={`bg-transparent border h-9 pl-4 pr-10 w-32 focus:w-64 focus:border-primary transition-all duration-300 rounded-none text-xs focus:ring-0 outline-none ${isMobileMenuOpen || !isScrolled ? 'border-gray-800 placeholder-gray-500 text-white' : 'border-gray-300 placeholder-gray-400 text-slate-900'}`}
+                                className={`bg-transparent border h-9 pl-4 pr-10 w-32 focus:w-64 focus:border-primary transition-all duration-300 rounded-none text-xs focus:ring-0 outline-none ${isMobileMenuOpen || !isScrolled ? 'border-white/20 placeholder-white/50 text-white' : 'border-gray-300 placeholder-gray-400 text-slate-900'}`}
                             />
-                            <button className={`absolute right-3 top-2.5 transition-colors ${isMobileMenuOpen || !isScrolled ? 'text-gray-500 hover:text-white' : 'text-gray-400 hover:text-primary'}`} type="button">
+                            <button className={`absolute right-3 top-2.5 transition-colors ${isMobileMenuOpen || !isScrolled ? 'text-white/50 hover:text-white' : 'text-gray-400 hover:text-primary'}`} type="button">
                                 <span className="material-symbols-outlined text-sm">search</span>
                             </button>
                         </div>
