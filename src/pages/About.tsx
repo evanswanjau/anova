@@ -149,10 +149,11 @@ const services = [
 ];
 
 const team = [
-    { name: 'James Kariuki', role: 'Chief Executive Officer', initials: 'JK' },
-    { name: 'Amina Hassan', role: 'Head of Engineering', initials: 'AH' },
-    { name: 'Brian Otieno', role: 'Head of Managed Services', initials: 'BO' },
-    { name: 'Grace Wanjiku', role: 'Head of Cybersecurity', initials: 'GW' },
+    { name: 'Salesio Kinyua', role: 'CTO', initials: 'SK' },
+    { name: 'Sidney Theuri', role: 'Operations Manager', initials: 'ST' },
+    { name: 'Maureen Njoki', role: 'Head of Admin & HR', initials: 'MN' },
+    { name: 'Hosea Nganya', role: 'Technical Engineer', initials: 'HN' },
+    { name: 'Evans Wanjau', role: 'Software Lead', initials: 'EW' },
 ];
 
 const differentiators = [
@@ -416,7 +417,7 @@ const About: React.FC = () => {
                             </div>
                         </Reveal>
 
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
                             {team.map((member, i) => (
                                 <Reveal key={i} delay={i * 100}>
                                     <div className="group text-center">
