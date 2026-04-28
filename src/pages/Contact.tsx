@@ -86,12 +86,32 @@ const Contact: React.FC = () => {
         try {
             const token = await executeRecaptcha('contact_form');
             console.log('reCAPTCHA token:', token);
+            
+            const form = e.target as HTMLFormElement;
+            const formData = new FormData(form);
+            const payload = Object.fromEntries(formData.entries());
+            
+            const apiUrl = import.meta.env.VITE_API_URL || '';
+            const response = await fetch(`${apiUrl}/api/contact`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    firstName: payload.firstName,
+                    lastName: payload.lastName,
+                    email: payload.email,
+                    phone: payload.phone,
+                    subject: payload.subject,
+                    description: payload.description,
+                    recaptchaToken: token
+                })
+            });
 
-            // Here you would normally send the token and form data to your backend
-            // for verification: https://developers.google.com/recaptcha/docs/verify
-
-            // Simulating API call
-            await new Promise(resolve => setTimeout(resolve, 1500));
+            const data = await response.json();
+            if (!response.ok || !data.success) {
+                throw new Error(data.message || 'Failed to submit the form');
+            }
 
             setSubmitStatus({
                 type: 'success',
@@ -99,12 +119,12 @@ const Contact: React.FC = () => {
             });
 
             // Reset form (optional)
-            (e.target as HTMLFormElement).reset();
-        } catch (error) {
+            form.reset();
+        } catch (error: any) {
             console.error('Submission error:', error);
             setSubmitStatus({
                 type: 'error',
-                message: 'Something went wrong. Please try again later.'
+                message: error.message || 'Something went wrong. Please try again later.'
             });
         } finally {
             setIsSubmitting(false);
@@ -230,37 +250,37 @@ const Contact: React.FC = () => {
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                         <div className="space-y-2">
                                             <label className="text-[10px] font-black uppercase tracking-widest text-slate-500">First Name</label>
-                                            <input type="text" className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="e.g. John" />
+                                            <input name="firstName" required type="text" className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="e.g. John" />
                                         </div>
                                         <div className="space-y-2">
                                             <label className="text-[10px] font-black uppercase tracking-widest text-slate-500">Last Name</label>
-                                            <input type="text" className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="e.g. Doe" />
+                                            <input name="lastName" required type="text" className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="e.g. Doe" />
                                         </div>
                                     </div>
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                         <div className="space-y-2">
                                             <label className="text-[10px] font-black uppercase tracking-widest text-slate-500">Work Email</label>
-                                            <input type="email" className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="john@company.com" />
+                                            <input name="email" required type="email" className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="john@company.com" />
                                         </div>
                                         <div className="space-y-2">
                                             <label className="text-[10px] font-black uppercase tracking-widest text-slate-500">Phone Number</label>
-                                            <input type="tel" className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="0712345678" />
+                                            <input name="phone" required type="tel" className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="0712345678" />
                                         </div>
                                     </div>
                                     <div className="space-y-2">
                                         <label className="text-[10px] font-black uppercase tracking-widest text-slate-500">Subject</label>
-                                        <select className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm appearance-none">
-                                            <option>General Help</option>
-                                            <option>Request a Call Back</option>
-                                            <option>Business Partnership</option>
-                                            <option>Technical Support</option>
-                                            <option>New Project Inquiry</option>
-                                            <option>Other</option>
+                                        <select name="subject" required className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm appearance-none">
+                                            <option value="General Help">General Help</option>
+                                            <option value="Request a Call Back">Request a Call Back</option>
+                                            <option value="Business Partnership">Business Partnership</option>
+                                            <option value="Technical Support">Technical Support</option>
+                                            <option value="New Project Inquiry">New Project Inquiry</option>
+                                            <option value="Other">Other</option>
                                         </select>
                                     </div>
                                     <div className="space-y-2">
                                         <label className="text-[10px] font-black uppercase tracking-widest text-slate-500">Project Description</label>
-                                        <textarea rows={6} className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="Tell us about your technical requirements..."></textarea>
+                                        <textarea name="description" required rows={6} className="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-primary transition-colors text-sm" placeholder="Tell us about your technical requirements..."></textarea>
                                     </div>
                                     <button
                                         disabled={isSubmitting}
