@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logoWhite from '../assets/images/logo-white.png';
+import ctaBg from '../assets/images/cta-bg.jpg'
 
 const Footer: React.FC = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -11,93 +12,176 @@ const Footer: React.FC = () => {
         type: 'Call Back'
     });
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsSubmitting(true);
-        
-        // Simulate API call
-        setTimeout(() => {
+
+        try {
+            const response = await fetch(`${import.meta.env.VITE_API_URL || ''}/api/cta`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                setIsSuccess(true);
+                setFormData({ name: '', phone: '', type: 'Call Back' });
+                // Reset success message after 5 seconds
+                setTimeout(() => setIsSuccess(false), 5000);
+            } else {
+                console.error('CTA submission failed');
+            }
+        } catch (error) {
+            console.error('Error submitting CTA:', error);
+        } finally {
             setIsSubmitting(false);
-            setIsSuccess(true);
-            setFormData({ name: '', phone: '', type: 'Call Back' });
-            
-            // Reset success message after 5 seconds
-            setTimeout(() => setIsSuccess(false), 5000);
-        }, 1500);
+        }
     };
 
     return (
         <>
             {/* Enquiry/CTA Section */}
-            <section className="relative py-20 overflow-hidden flex items-center min-h-[400px]">
+            <section className="relative py-20 overflow-hidden flex items-center min-h-[480px]">
+
+                {/* Background */}
                 <div className="absolute inset-0">
                     <img
                         alt="Circuit board close up"
                         className="w-full h-full object-cover"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_gH5j_1hTREJq8NyHAGei8SGc9yPlIK9AjgKYcUqnJJjQGk6NZv98F5xPS8yS4WCF9y3jaGlsXxClLuCjXzU71d1g6s9He0dujEW2EUnvjm71wR7iCN1VDtV4Ida9rM7MqetsHHd-KoOWMIIvD5MF98fMqvh8wfwHkmmN9Tq75f7ljgSNk6LzMtSiSfM26rGkmz9_GU9Zp6dp0oytCJ507zD5UfkO-7zjmgSEq6WhczBqgI5NPrX7m_MXRGYTZgNW63LkURbjUhg"
+                        src={ctaBg}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-r from-nasa-black via-nasa-black/80 to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-[#061d11] via-[#061d11]/85 to-[#061d11]/40" />
                 </div>
+
+                {/* Subtle horizontal rule */}
+                <div className="absolute top-1/2 left-0 right-0 h-px bg-primary/[0.06]" />
+
                 <div className="relative z-10 max-w-[1440px] mx-auto px-6 lg:px-12 w-full">
-                    <div className="max-w-3xl">
-                        <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6 uppercase tracking-tighter">
-                            Ready to transform your<br />digital landscape?
-                        </h2>
-                        <p className="text-gray-200 text-lg mb-10 max-w-lg">
-                            Whether you need a quick call back or have a specific product enquiry, our team is ready to assist.
-                        </p>
-                        
-                        {isSuccess ? (
-                            <div className="bg-primary/20 border border-primary/50 p-8 max-w-md backdrop-blur-sm">
-                                <span className="material-symbols-outlined text-primary text-4xl mb-4">check_circle</span>
-                                <h3 className="text-white font-bold text-xl mb-2">Request Received!</h3>
-                                <p className="text-gray-200">Thank you. One of our experts will get back to you shortly.</p>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+                        {/* Left — copy */}
+                        <div>
+                            <div className="flex items-center gap-3 mb-5">
+                                <div className="w-6 h-0.5 bg-primary" />
+                                <span className="text-[10px] tracking-[3px] uppercase text-primary font-semibold">
+                                    Get in touch
+                                </span>
                             </div>
-                        ) : (
-                            <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl">
-                                <div className="space-y-4 col-span-2 md:col-span-1">
-                                    <input
-                                        required
-                                        className="w-full bg-white/10 border border-white/20 text-white placeholder-gray-400 px-4 py-4 focus:outline-none focus:border-primary focus:bg-white/20 transition-all"
-                                        placeholder="Full Name"
-                                        value={formData.name}
-                                        onChange={(e) => setFormData({...formData, name: e.target.value})}
-                                    />
-                                    <input
-                                        required
-                                        className="w-full bg-white/10 border border-white/20 text-white placeholder-gray-400 px-4 py-4 focus:outline-none focus:border-primary focus:bg-white/20 transition-all"
-                                        placeholder="Phone Number"
-                                        value={formData.phone}
-                                        onChange={(e) => setFormData({...formData, phone: e.target.value})}
-                                    />
-                                </div>
-                                <div className="space-y-4 col-span-2 md:col-span-1">
-                                    <select
-                                        className="w-full bg-nasa-black border border-white/20 text-white px-4 py-4 focus:outline-none focus:border-primary transition-all appearance-none cursor-pointer"
-                                        value={formData.type}
-                                        onChange={(e) => setFormData({...formData, type: e.target.value})}
-                                    >
-                                        <option value="Call Back">Request Call Back</option>
-                                        <option value="Product Enquiry">Product Enquiry</option>
-                                        <option value="Technical Support">Technical Support</option>
-                                    </select>
-                                    <button
-                                        disabled={isSubmitting}
-                                        className={`w-full bg-primary text-white font-black px-6 py-4 hover:bg-primary/90 transition-all uppercase tracking-widest text-sm flex items-center justify-center gap-3 ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
-                                        type="submit"
-                                    >
-                                        {isSubmitting ? (
-                                            <>
-                                                <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
-                                                Sending...
-                                            </>
-                                        ) : (
-                                            'Send Request'
-                                        )}
-                                    </button>
-                                </div>
-                            </form>
-                        )}
+                            <h2 className="text-4xl md:text-5xl font-display font-black text-white uppercase tracking-tighter leading-[1.1] mb-5">
+                                Ready to transform your{' '}
+                                <span className="text-primary">digital</span>{' '}
+                                landscape?
+                            </h2>
+                            <p className="text-white/55 text-[15px] leading-relaxed mb-8 max-w-sm">
+                                Whether you need a quick call back or have a specific product
+                                enquiry, our team is ready to assist.
+                            </p>
+                            <div className="flex items-center gap-5">
+                                {['24hr response', 'Expert team', 'No obligation'].map((item) => (
+                                    <div key={item} className="flex items-center gap-2">
+                                        <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                                        <span className="text-[11px] tracking-wide text-white/40">{item}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Right — form */}
+                        <div>
+                            <div className="border border-white/[0.08] bg-white/[0.03] p-7">
+                                {isSuccess ? (
+                                    <div className="bg-primary/10 border border-primary/25 p-8 text-center">
+                                        <div className="w-12 h-12 rounded-full border-2 border-primary flex items-center justify-center mx-auto mb-4">
+                                            <span className="material-symbols-outlined text-primary text-xl">
+                                                check
+                                            </span>
+                                        </div>
+                                        <h3 className="text-white font-bold text-lg mb-2">
+                                            Request Received!
+                                        </h3>
+                                        <p className="text-white/50 text-sm leading-relaxed">
+                                            Thank you. One of our experts will get back to you within 24 hours.
+                                        </p>
+                                    </div>
+                                ) : (
+                                    <form onSubmit={handleSubmit} className="space-y-3">
+                                        <div className="grid grid-cols-2 gap-3">
+                                            <div>
+                                                <label className="block text-[10px] tracking-[1.5px] uppercase text-white/60 font-semibold mb-1.5">
+                                                    Full Name
+                                                </label>
+                                                <input
+                                                    required
+                                                    className="w-full bg-white/[0.06] border border-white/70 text-white placeholder-white/45 px-4 py-3.5 text-sm focus:outline-none focus:border-primary focus:bg-primary/[0.06] transition-all"
+                                                    placeholder="Brian Kamau"
+                                                    value={formData.name}
+                                                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                                                />
+                                            </div>
+                                            <div>
+                                                <label className="block text-[10px] tracking-[1.5px] uppercase text-white/60 font-semibold mb-1.5">
+                                                    Phone Number
+                                                </label>
+                                                <input
+                                                    required
+                                                    className="w-full bg-white/[0.06] border border-white/70 text-white placeholder-white/45 px-4 py-3.5 text-sm focus:outline-none focus:border-primary focus:bg-primary/[0.06] transition-all"
+                                                    placeholder="+254 7XX XXX XXX"
+                                                    value={formData.phone}
+                                                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                                                />
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <label className="block text-[10px] tracking-[1.5px] uppercase text-white/40 font-semibold mb-1.5">
+                                                Request Type
+                                            </label>
+                                            <div className="relative">
+                                                <select
+                                                    className="w-full bg-nasa-black border border-white/10 text-white px-4 py-3.5 text-sm focus:outline-none focus:border-primary transition-all appearance-none cursor-pointer pr-10"
+                                                    value={formData.type}
+                                                    onChange={(e) => setFormData({ ...formData, type: e.target.value })}
+                                                >
+                                                    <option value="Call Back">Request Call Back</option>
+                                                    <option value="Product Enquiry">Product Enquiry</option>
+                                                    <option value="Technical Support">Technical Support</option>
+                                                </select>
+                                                {/* Custom chevron */}
+                                                <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
+                                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none">
+                                                        <path d="M1 1l4 4 4-4" stroke="#2f6d41" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button
+                                            disabled={isSubmitting}
+                                            type="submit"
+                                            className={`w-full mt-2 bg-primary text-white font-black px-6 py-4 text-[11px] tracking-[2.5px] uppercase flex items-center justify-center gap-3 transition-all
+                                    ${isSubmitting
+                                                    ? 'opacity-70 cursor-not-allowed'
+                                                    : 'hover:bg-primary/90 active:scale-[0.99]'
+                                                }`}
+                                        >
+                                            {isSubmitting ? (
+                                                <>
+                                                    <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                                                    Sending...
+                                                </>
+                                            ) : (
+                                                <>
+                                                    Send Request
+                                                </>
+                                            )}
+                                        </button>
+                                    </form>
+                                )}
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
