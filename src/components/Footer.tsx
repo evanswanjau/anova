@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import logoWhite from '../assets/images/logo-white.png';
 import ctaBg from '../assets/images/cta-bg.jpg'
 
 const Footer: React.FC = () => {
+    const { executeRecaptcha } = useGoogleReCaptcha();
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
     const [formData, setFormData] = useState({
@@ -14,15 +16,26 @@ const Footer: React.FC = () => {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+
+        if (!executeRecaptcha) {
+            console.warn('Execute recaptcha not yet available');
+            return;
+        }
+
         setIsSubmitting(true);
 
         try {
+            const token = await executeRecaptcha('footer_cta');
+
             const response = await fetch(`${import.meta.env.VITE_API_URL || ''}/api/cta`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify(formData),
+                body: JSON.stringify({
+                    ...formData,
+                    recaptchaToken: token
+                }),
             });
 
             if (response.ok) {
@@ -179,6 +192,11 @@ const Footer: React.FC = () => {
                                         </button>
                                     </form>
                                 )}
+                                <p className="text-[10px] text-white/30 mt-4 leading-relaxed text-center">
+                                    This site is protected by reCAPTCHA and the Google{' '}
+                                    <a href="https://policies.google.com/privacy" className="underline hover:text-white transition-colors">Privacy Policy</a> and{' '}
+                                    <a href="https://policies.google.com/terms" className="underline hover:text-white transition-colors">Terms of Service</a> apply.
+                                </p>
                             </div>
                         </div>
 
